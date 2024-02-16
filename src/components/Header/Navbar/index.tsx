@@ -12,16 +12,18 @@ export function Navbar() {
     }
 
     return (
-        <header className="sticky top-[-2px] shadow-lg w-full z-20 flex flex-row items-center justify-between h-[90px] p-0 bg-white">
+        <header className=" sticky top-0 shadow-lg w-full z-50 flex flex-row items-center justify-between h-[90px] p-0 bg-white">
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
 
-                    <nav className="flex items-center gap-10 w-[70%] justify-center" ref={navRef}>
-                        <a className="m-0 decoration-0 text-base font-medium text-blue-600" href="/">HOME</a>
-                        <a className="m-0 text-black decoration-0 text-base" href="#">SOLUÇÕES</a>
-                        <a className="m-0 text-black decoration-0 text-base" href="#">BLOG</a>
-                        <a className="m-0 text-black decoration-0 text-base" href="sobre-nos">SOBRE</a>
-                        <a className="m-0 text-black decoration-0 text-base" href="contacto">CONTACTOS</a>
+                    <nav className="flex items-center gap-10 justify-center" ref={navRef}>
+                        <div className="nav-buttons">
+                            <a className="m-0 decoration-0 text-base font-medium text-blue-600" href="/">HOME</a>
+                            <a className="m-0 text-black decoration-0 text-base" href="#">SOLUÇÕES</a>
+                            <a className="m-0 text-black decoration-0 text-base" href="#">BLOG</a>
+                            <a className="m-0 text-black decoration-0 text-base" href="sobre-nos">SOBRE</a>
+                            <a className="m-0 text-black decoration-0 text-base" href="contacto">CONTACTOS</a>
+                        </div>
                         <button className="nav-btn nav-close-btn" onClick={showNavBar}> <FaTimes /> </button>
                     </nav>
 

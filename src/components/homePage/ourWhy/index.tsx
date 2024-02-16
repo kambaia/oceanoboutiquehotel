@@ -6,7 +6,7 @@ export function OurWhy() {
         <Container>
             <div className="w-full flex flex-row justify-around">
 
-                <div className="w-[60%] h-[500px]" >
+                <div className="w-[60%] h-[600px]" >
                     <div className="macro w-[600px] h-full absolute mt-[-140px]">
                         <p className="transform -rotate-90 transform-origin-left-bottom whitespace-nowrap font-bold text-[200px] absolute mt-[150px] ml-[-270px] opacity-55 text-[#BDD8FA]">Macro</p>
                     </div>

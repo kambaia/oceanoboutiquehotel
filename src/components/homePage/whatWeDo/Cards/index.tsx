@@ -6,11 +6,12 @@ type CardProps = {
     title: string
     description: string
     icon: ReactNode
+    solution: string
 }
 
-export function WeDoCards({ title, description, icon }: CardProps) {
+export function WeDoCards({ title, description, icon, solution }: CardProps) {
     return (
-        <div className={`w-[300px] h-[450px] shadow-lg flex flex-col items-center gap-6 p-5 pt-10 bg-black`}>
+        <div className={`${solution} w-[300px] h-[450px] shadow-lg flex flex-col items-center gap-6 p-5 pt-10 bg-black`}>
             <div className="w-full flex justify-center items-center">
                 <div className="w-[70px] h-[70px] bg-gray-100 rounded-full flex justify-center items-center">
                     {icon}

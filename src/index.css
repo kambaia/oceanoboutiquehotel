@@ -9,6 +9,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 header .nav-btn {
     padding: 5px;
     cursor: pointer;
@@ -27,13 +29,29 @@ nav a {
     font-size: 17px;
 }
 
+@media only screen and (min-width: 1025px) {
+  
+    header nav {
+        width: 70%;
+    }
+    .support-contact {
+        width: 20%;
+    }
+
+    header nav .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
 
 @media only screen and (max-width: 1024px) {
     .support-contact {
-        display: none;
-        visibility: hidden;
-        display: none;
-        opacity: 0;
+        
     }
 
     header .nav-btn {
@@ -49,14 +67,32 @@ nav a {
         left: 0;
         height: 100%;
         width: 100%;
+        opacity: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-wrap: wrap;
         gap: 10px;
-        background-color: #1B1B1B;
+        background-color: #2D4078;
         color: #fff;
         transition: 1s;
         transform: translateY(-100vh);
+    }
+
+    header nav .nav-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    header nav .nav-buttons a {
+        padding: 20px;
+        font-size: 18px;
+        color: #fff;
+        text-transform: capitalize;
+    }    
+
+    header nav .nav-buttons a:hover {
+        background-color: #1d2a50;
     }
 
     header .responsive_nav {
@@ -67,10 +103,9 @@ nav a {
         position: absolute;
         top: 2rem;
         right: 2rem;
-    }
-
-    nav a {
-        font-size: 1.5rem;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 100%;
     }
 }
 
@@ -86,6 +121,29 @@ nav a {
 .card :hover{
     background: linear-gradient(to bottom, #3498db, #2c3e50); /* Cores do gradiente */
     animation: cortina 1s ease-in-out
+}
+
+
+.solution-card1, .solution-card2, .solution-card3, .solution-card4v{
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.5);
+}
+
+.solution-card1:hover {
+    background-image: url(assets/Solutions/Card/solution1.jpg);
+}
+
+.solution-card2:hover {
+    background-image: url(assets/Solutions/Card/solution2.jpg);
+}
+
+.solution-card3:hover {
+    background-image: url(assets/Solutions/Card/solution3.jpg);
+}
+
+.solution-card4:hover {
+    background-image: url(assets/Solutions/Card/solution4.jpg);
 }
 
 
@@ -110,3 +168,9 @@ nav a {
     background-position: center;
     box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.5);
 }
+
+/* .service {
+    background-image: url(assets/lines.png);
+    background-position: right;
+    background-repeat: no-repeat;
+} */
