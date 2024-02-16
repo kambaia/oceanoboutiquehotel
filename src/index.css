@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+nav a {
+    padding: 6px;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .support-contact {
+        display: none;
+        visibility: hidden;
+        display: none;
+        opacity: 0;
+    }
+
+    header .nav-btn {
+        visibility: visible;
+        display: flex;
+        opacity: 1;
+        color: #1B1B1B;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #1B1B1B;
+        color: #fff;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+
+@keyframes cortina {
+    0% {
+      background-size: 100% 0;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+}
+
+.card :hover{
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Cores do gradiente */
+    animation: cortina 1s ease-in-out
+}
+
+
+.macro {
+    background-image: url(https://macroconsulting.pt/wp-content/uploads/2022/03/controlo-de-gestao-consultoria-controlo-de-gestao-macro-consulting.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(assets/Banner/about.jpg);
+    background-position: center;
+    box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.5);
+}
+
+.contact-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(assets/Banner/contact.jpg);
+    background-position: center;
+    box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.5);
+}
