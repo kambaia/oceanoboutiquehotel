@@ -15,7 +15,7 @@ export const Layout: React.FC<Props> = ({
         <Fragment>
             <div className="flex flex-col w-full">
                 <Header />
-                <Navbar />
+              
                 {children}
                 <Footer />
             </div>
