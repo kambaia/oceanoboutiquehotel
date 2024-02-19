@@ -2,6 +2,7 @@ import { useRef } from "react"
 import { FaBars, FaTimes, FaPhone } from "react-icons/fa"
 import Container from "../../share/container"
 import Logo from '../../../assets/logo.svg';
+import { Link } from "react-router-dom";
 
 export function Navbar() {
 
@@ -16,7 +17,7 @@ export function Navbar() {
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
                     <div>
-                        <div className="w-52"><img src={Logo}/></div>
+                        <div className="w-52"><Link to={'/'}><img src={Logo}/></Link></div>
                     </div>
                     <nav className="flex items-center gap-10 justify-center" ref={navRef}>
                         <div className="nav-buttons">
@@ -29,11 +30,11 @@ export function Navbar() {
                         <button className="nav-btn nav-close-btn" onClick={showNavBar}> <FaTimes /> </button>
                     </nav>
 
-                    <div className="support-contact h-[90px] flex flex-row gap-6 pl-4 justify-end items-center border-l border-white">
+                    <div className="support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center border-l border-white">
                         <FaPhone className="text-3xl text-[#FF0000]" />
                         <div className="flex flex-col">
                             <p className="text-sm text-white">Tem Alguma Questão?</p>
-                            <p className="text-xl font-medium text-white">(+244) 931 251 965</p>
+                            <p className="text-[20px] font-medium text-white">(+244) 931 251 965</p>
                         </div>
                     </div>
 

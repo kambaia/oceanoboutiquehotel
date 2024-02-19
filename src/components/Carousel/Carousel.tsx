@@ -70,12 +70,13 @@ export default function Carousel({
 
             <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
                 <Container>
-                    <div className="py-[10%] w-[60%]">
+                    <div className="py-[8%] w-[50%]">
                         <div className="flex items-center gap-8 text-3xl text-white">
-                            <a href="https://www.youtube.com/watch?v=Z_TepAU9mJk" className=" play-btn mb-4"></a>
-                            VER VÍDEO
+                            <a href="https://www.youtube.com/watch?v=Z_TepAU9mJk" className="play-btn mb-3 text-1xl"></a>
+                             <span className="text-[18px]">VER VÍDEO</span>
                         </div>
-                        <h1 style={{ transform: `translateX(-100)` }} ref={tl} className="box text-white"><span className="font-bold text-[#FF0000] text-7xl">{string[currS].title}</span> <span className="text-5xl font-light"> {string[currS].p}</span></h1>
+                        <h1 style={{ transform: `translateX(-100)` }} ref={tl} className="box text-white">
+                            <span className="font-bold text-[#FF0000] text-6xl">{string[currS].title}</span> <span className="text-5xl font-light"> {string[currS].p}</span></h1>
                     </div>
 
                     <div className="flex items-center justify-start z-50 gap-2">
