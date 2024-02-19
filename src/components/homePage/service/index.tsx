@@ -14,7 +14,7 @@ export function Service() {
                 </div>
                 <p className="w-[750px] text-center text-lg">Na <b>B.ALFA</b> você conta com Soluções Diferenciadas e Personalizadas com foco na sua real necessidade para aumentar a sua produtividade e rentabilidade.</p>
                 <h1 className="text-2xl font-medium mt-4 text-red-600">CONFIRA COMO FUNCIONA O NOSSO ATENDIMENTO:</h1>
-                <div className="flex flex-row flex-wrap gap-5 justify-between w-full mt-10">
+                <div className="flex flex-row justify-between w-full mt-10">
                     <div className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">1º</h1>
                         <p className="text-white ">Entendemos qual é o seu negócio e a sua linha de atuação;</p>
@@ -28,7 +28,7 @@ export function Service() {
                         <p className="text-white ">Realizamos o acompanhamento com uma equipe altamente especializada;</p>
                     </div>
                 </div>
-                <div className="flex flex-row flex-wrap gap-5 justify-center gap-48 w-full mt-10">
+                <div className="flex flex-row justify-center gap-48 w-full mt-10">
                     <div className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">2º</h1>
                         <p className="text-white ">Compreendemos a sua demanda;</p>

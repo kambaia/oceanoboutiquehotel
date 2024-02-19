@@ -6,6 +6,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(assets/Banner/7.png);
+    background-position: right;
+    position: relative;
+    background-size: contain;
+    top: 100%;
+}
+
 .play-btn {
     width: 94px;
     height: 94px;
