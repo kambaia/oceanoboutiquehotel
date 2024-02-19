@@ -56,11 +56,11 @@ export function WhatWeDo() {
 
                 </div>
  
-                <div className="pt-10 pb-10 flex flex-row flex-wrap gap-5 justify-between">
-                    <WeDoCards solution="solution-card1" icon={<FaChartLine className="w-full text-4xl text-center text-red-600" />} title="Estudos Financeiros e Análise de Viabilidade" description="Analisamos o potencial do seu negócio ou ideia, prestando serviços de aconselhamento estratégico que representam uma importante mais valia na alavancagem de um negócio." />
-                    <WeDoCards solution="solution-card2" icon={<FaChess className="w-full text-4xl text-center text-red-600" />} title="Planos de Marketing e Estudos de Mercado" description="Por forma a garantir que atingirá o seu público-alvo da forma mais rentável e eficiente, é essencial o investimento num forte e estruturado plano de comunicação e de marketing..." />
-                    <WeDoCards solution="solution-card3" icon={<IoIosPeople className="w-full text-4xl text-center text-red-600" />} title="Aconselhamento técnico na agricultura" description="Para garantir que o produtor agricola tenha sucesso e alta produtividade prestamos apoio técnico agricola na produção de leguminosas, frutas e hortaliças." />
-                    <WeDoCards solution="solution-card4" icon={<MdOutlineAttachMoney className="w-full text-4xl text-center text-red-600" />} title="Avaliação de empresas e negócios" description="A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica." />
+                <div className="pt-10 pb-10 flex flex-row gap-3 justify-between">
+                    <WeDoCards title="Estudos Financeiros e Análise de Viabilidade" description="Analisamos o potencial do seu negócio ou ideia, prestando serviços de aconselhamento estratégico que representam uma importante mais valia na alavancagem de um negócio." />
+                    <WeDoCards title="Planos de Marketing e Estudos de Mercado" description="Por forma a garantir que atingirá o seu público-alvo da forma mais rentável e eficiente, é essencial o investimento num forte e estruturado plano de comunicação e de marketing..." />
+                    <WeDoCards title="Aconselhamento técnico na agricultura" description="Para garantir que o produtor agricola tenha sucesso e alta produtividade prestamos apoio técnico agricola na produção de leguminosas, frutas e hortaliças." />
+                    <WeDoCards title="Avaliação de empresas e negócios" description="A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica. " />
                 </div>
             </div>
         </Container>
