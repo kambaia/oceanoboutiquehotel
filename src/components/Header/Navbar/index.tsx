@@ -1,40 +1,58 @@
-import { useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { FaBars, FaTimes, FaPhone } from "react-icons/fa"
 import Container from "../../share/container"
 import Logo from '../../../assets/logo.svg';
 import Logo1 from '../../../assets/logo1.svg';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-export function Navbar({banner=''}:{banner?:string}) {
+
+export function Navbar({ banner = '' }: { banner?: string }) {
     const navRef = useRef<any>()
 
     const showNavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
     }
- 
+
+    const location = useLocation();
+
+    // Sticky Navbar
+    const [sticky, setSticky] = useState(false);
+    const handleStickyNavbar = () => {
+        if (window.scrollY >= 180) {
+            setSticky(true);
+        } else {
+            setSticky(false);
+        }
+    };
+    useEffect(() => {
+        window.addEventListener("scroll", handleStickyNavbar);
+    });
+    console.log(location.pathname)
+
+
     return (
-        <header className={banner ==='banner'?`absolute top-0 shadow-lg w-full z-50 flex flex-row items-center justify-between h-[90px] p-0 `: `sticky bg-white top-0 shadow-lg w-full z-50 flex flex-row items-center justify-between h-[90px] p-0`}>
+        <header className={`top-0 w-full z-50 flex flex-row items-center justify-between h-[90px] p-0  ${sticky?'fixed top-0 bg-white shadow-lg': `absolute ` }`}>
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
                     <div>
-                        <div className="w-52"><Link to={'/'}><img src={banner === 'banner' ? Logo : Logo1}/></Link></div>
+                        <div className="w-52"><Link to={'/'}><img src={sticky ? Logo1 : Logo} /></Link></div>
                     </div>
                     <nav className="flex items-center gap-10 justify-center" ref={navRef}>
                         <div className="nav-buttons">
-                            <a className="m-0 decoration-0 text-base font-medium text-[#FF0000]" href="/">HOME</a>
-                            <a className={banner === "banner"?`m-0 text-white decoration-0 text-base`: "m-0 text-black decoration-0 text-base"} href="#">SOLUÇÕES</a>
-                            <a className={banner === "banner"?`m-0 text-white decoration-0 text-base`: "m-0 text-black decoration-0 text-base"} href="#">BLOG</a>
-                            <a className={banner === "banner"?`m-0 text-white decoration-0 text-base`: "m-0 text-black decoration-0 text-base"} href="sobre-nos">SOBRE</a>
-                            <a className={banner === "banner"?`m-0 text-white decoration-0 text-base`: "m-0 text-black decoration-0 text-base"} href="contacto">CONTACTOS</a>
+                            <a className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': ' text-white'}` } href="/">HOME</a>
+                            <a className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/solucao' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/solucao' ? 'text-[#FF0000]': 'text-white'}` } href="#">SOLUÇÕES</a>
+                            <a className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/blog' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/blog' ? 'text-[#FF0000]': 'text-white'}`} href="#">BLOG</a>
+                            <a className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-white'}`} href="/sobre-nos">SOBRE</a>
+                            <a className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': 'text-white'}`} href="/contacto">CONTACTOS</a>
                         </div>
                         <button className="nav-btn nav-close-btn" onClick={showNavBar}> <FaTimes /> </button>
                     </nav>
 
-                    <div className="support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center border-l border-white">
+                    <div className={`support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center ${sticky?'border-l border-black ': ` ` }`}>
                         <FaPhone className="text-3xl text-[#FF0000]" />
                         <div className="flex flex-col">
-                            <p className={banner === "banner"? `text-sm text-white`: `text-sm text-black`}>Tem Alguma Questão?</p>
-                            <p className={banner === "banner"? `text-sm text-white text-[20px] font-medium`: `text-sm text-black text-[20px] font-medium`}>(+244) 931 251 965</p>
+                            <p className={sticky ? `text-sm text-black` : `text-sm text-white`}>Tem Alguma Questão?</p>
+                            <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}>(+244) 931 251 965</p>
                         </div>
                     </div>
 
