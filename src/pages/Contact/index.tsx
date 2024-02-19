@@ -10,7 +10,9 @@ import { IoIosSend } from "react-icons/io";
 export default function ContactPage() {
     return (
         <Layout>
-            <Navbar />
+            <div className="w-full bg-white relative">
+                <Navbar />
+            </div>
             <TopBanner title="Contactos" tipo="contact-banner" />
 
             <Container>

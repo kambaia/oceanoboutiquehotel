@@ -9,7 +9,9 @@ import { Navbar } from "../../components/Header/Navbar"
 export default function AboutPage() {
     return (
         <Layout>
-            <Navbar />
+            <div className="w-full bg-white relative">
+                <Navbar />
+            </div>
             <TopBanner title="Sobre-Nós" tipo="about-banner" />
             <div className="w-full bg-gradient-to-r from-[#EDF5FF] to-[#CCDFF7] py-10">
                 <Identity />
