@@ -1,5 +1,5 @@
 import Container from "../share/container"
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.svg'
 import { Link } from "react-router-dom"
 
 import { FaLocationDot } from "react-icons/fa6";
