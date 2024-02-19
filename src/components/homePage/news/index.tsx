@@ -8,12 +8,15 @@ import person from '../../../assets/person.jpg'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 export function Notices() {
     return (
         <Container>
             <div className="py-20">
-                <div className="w-full flex flex-col text-center items-center justify-center pb-20 text-xl gap-2">
+                <div data-aos="fade-down" data-aos-duration="600" className="w-full flex flex-col text-center items-center justify-center pb-20 text-xl gap-2">
                     <h2 className="text-red-600">NOTÍCIAS E DESTAQUES</h2>
                     <h1 className="text-4xl font-medium">Leia aqui as mais recentes novidades</h1>
                 </div>
@@ -21,7 +24,7 @@ export function Notices() {
 
 
 
-                    <div className="w-[350px] bg-white rounded-md mt-10">
+                    <div data-aos="fade-down" data-aos-delay="100" className="w-[350px] bg-white rounded-md mt-10">
                         <img src={image1} alt="New Year 2023" className='w-full h-[220px] rounded-t-md' />
                         <div className='flex flex-row justify-start items-center gap-4 w-full p-5'>
                             <img src={person} alt="User" className='w-10 h-10 rounded-full' />
@@ -41,7 +44,7 @@ export function Notices() {
 
 
 
-                    <div className="w-[350px] h-[640px] bg-white rounded-md">
+                    <div  data-aos="fade-down" data-aos-delay="300" className="w-[350px] h-[640px] bg-white rounded-md">
                         <img src={image2} alt="New Year 2023" className='w-full h-[220px] rounded-t-md' />
                         <div className='flex flex-row justify-start items-center gap-4 w-full p-5'>
                             <img src={person} alt="User" className='w-10 h-10 rounded-full' />
@@ -60,7 +63,7 @@ export function Notices() {
                     </div>
 
 
-                    <div className="w-[350px] bg-white rounded-md mt-10">
+                    <div  data-aos="fade-down" data-aos-delay="500" className="w-[350px] bg-white rounded-md mt-10">
                         <img src={image3} alt="New Year 2023" className='w-full h-[220px] rounded-t-md' />
                         <div className='flex flex-row justify-start items-center gap-4 w-full p-5'>
                             <img src={person} alt="User" className='w-10 h-10 rounded-full' />
