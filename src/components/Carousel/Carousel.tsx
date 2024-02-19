@@ -84,10 +84,7 @@ export default function Carousel({
                             <div className="flex justify-center items-center border border-red-500 w-5 h-5 rounded-full">
                                 <div
                                     onClick={() => prev()}
-                                    className={`
-              transition-all w-2 h-2 bg-[#ff0000] rounded-full
-              ${curr === i ? "p-1" : "bg-opacity-50"}
-            `}
+                                    className={`transition-all w-2 h-2 bg-[#ff0000] rounded-full ${curr === i ? "p-1" : "bg-opacity-50"}`}
                                 ></div>
                             </div>
                         ))}
@@ -111,20 +108,20 @@ export default function Carousel({
             <div className="absolute bottom-0 right-0 left-0">
 
                 <div ref={tl_banner} className="banner z-40 h-[65vh] w-full left-0 right-0">
-                <div className="absolute inset-0 flex items-center justify-end gap-2 top-72 px-6 z-50 ">
-                    <button
-                        onClick={() => prev()}
-                        className="p-2 rounded-full shadow bg-[rgba(246,244,244,0.57)] text-gray-800 hover:bg-white"
-                    >
-                        <AiOutlineLeft size={20} color="#FF0000" />
-                    </button>
-                    <button
-                        onClick={next}
-                        className="p-2 rounded-full shadow bg-[rgba(255,251,251,0.6)] text-gray-800 hover:bg-white"
-                    >
-                        <AiOutlineRight size={20} color="#FF0000" />
-                    </button>
-                </div>
+                    <div className="absolute inset-0 flex items-center justify-end gap-2 top-72 px-6 z-50 ">
+                        <button
+                            onClick={() => prev()}
+                            className="p-2 rounded-full shadow bg-[rgba(246,244,244,0.57)] text-gray-800 hover:bg-white"
+                        >
+                            <AiOutlineLeft size={20} color="#FF0000" />
+                        </button>
+                        <button
+                            onClick={next}
+                            className="p-2 rounded-full shadow bg-[rgba(255,251,251,0.6)] text-gray-800 hover:bg-white"
+                        >
+                            <AiOutlineRight size={20} color="#FF0000" />
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

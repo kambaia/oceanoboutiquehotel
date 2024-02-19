@@ -7,10 +7,10 @@ import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export function Footer() {
-    return ( 
+    return (
         <div className="footer w-full pt-20 bg-[#202020]">
             <Container>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row flex-wrap gap-5 justify-between">
 
                     <div className="border-r px-20 h-20 flex items-center">
                         <img src={Logo} alt="Logo" className="w-[150px]" />
@@ -67,7 +67,8 @@ export function Footer() {
                     </div>
                 </div>
             </Container>
-            <div className="w-full h-[80px] bg-[#222527] px-20 text-white mt-5 flex items-center justify-center">
+
+            <div className="w-full flex-row flex-wrap py-5 bg-[#222527] px-20 text-white mt-5 flex items-center justify-center">
                 <Container>
                     <div className="flex flex-row items-center justify-between">
                         <p>B.ALFA - Investimentos & Consultória, LDA ® | Todos os direitos reservados</p>

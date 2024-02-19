@@ -11,9 +11,9 @@ export function Navbar() {
     const showNavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
     }
-
+ 
     return (
-        <header className=" absolute top-0 shadow-lg w-full z-50 flex flex-row items-center justify-between h-[90px] p-0 ">
+        <header className="absolute top-0 shadow-lg w-full z-50 flex flex-row items-center justify-between h-[90px] p-0 ">
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
                     <div>
