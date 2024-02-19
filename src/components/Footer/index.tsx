@@ -1,5 +1,5 @@
 import Container from "../share/container"
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo-footer.svg'
 import { Link } from "react-router-dom"
 
 import { FaLocationDot } from "react-icons/fa6";
@@ -7,13 +7,13 @@ import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export function Footer() {
-    return ( 
+    return (
         <div className="footer w-full pt-20 bg-[#202020]">
             <Container>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row flex-wrap gap-5 justify-between">
 
-                    <div className="border-r px-20 h-20">
-                        <img src={Logo} alt="Logo" />
+                    <div className="border-r px-20 h-20 flex items-center">
+                        <img src={Logo} alt="Logo" className="w-[150px]" />
                     </div>
 
                     <div>
@@ -44,21 +44,21 @@ export function Footer() {
                     <div className="w-[250px]">
                         <p className="text-white font-bold text-xl">Contactos</p>
                         <div className="flex flex-row gap-4 mt-4 text-gray-300 ">
-                            <FaLocationDot className="text-3xl text-blue-600" />
+                            <FaLocationDot className="text-3xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>MORADA:</p>
                                 <p>Via Expressa,Luanda, Angola</p>
                             </div>
                         </div>
                         <div className="flex flex-row gap-4 mt-4 text-gray-300 ">
-                            <MdEmail className="text-2xl text-blue-600" />
+                            <MdEmail className="text-2xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>EMAIL:</p>
                                 <p>geral@grupoboavida.co.ao</p>
                             </div>
                         </div>
                         <div className="flex flex-row gap-4 mt-4 text-gray-300 ">
-                            <FaPhone className="text-2xl text-blue-600" />
+                            <FaPhone className="text-2xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>TELEFONE:</p>
                                 <p>(+244) 931 251 965</p>
@@ -67,10 +67,11 @@ export function Footer() {
                     </div>
                 </div>
             </Container>
-            <div className="w-full h-[80px] bg-[#222527] px-20 text-white mt-5 flex items-center justify-center">
+
+            <div className="w-full flex-row flex-wrap py-5 bg-[#222527] px-20 text-white mt-5 flex items-center justify-center">
                 <Container>
                     <div className="flex flex-row items-center justify-between">
-                        <p>Macro Consulting ® | Todos os direitos reservados</p>
+                        <p>B.ALFA - Investimentos & Consultória, LDA ® | Todos os direitos reservados</p>
                         <div className="flex flex-row items-center justify-center gap-5">
                             <p className="hover:text-white hover:pb-2 duration-300"><Link to={`/sobre-nos`}>Sobre Nós</Link></p>
                             <p className="hover:text-white hover:pb-2 duration-300"><Link to={`/`}>Soluções</Link></p>

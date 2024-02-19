@@ -1,4 +1,40 @@
-import { ReactNode } from "react";
+import Container from "../../../share/container"
+
+type CardProps = {
+    title: string
+    description: string
+    image: string
+}
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+export function WeDoCards({ title, description, image }: CardProps) {
+    return (
+        <Container>
+            <div className="grid items-center justify-center rounded-md" data-aos="fade-left">
+                <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 rounded-md">
+                    <div className="rounded-md w-[288px] left-0 right-0 bg-blue-500 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                        <div className="h-[400px] w-72 rounded-md">
+                            <img className="h-full rounded-md w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={image} alt="Imagem" />
+                        </div>
+                        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                        <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 className="font-dmserif text-xl font-bold text-white">{title}</h1>
+                            <p className="my-3 text-base italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">{description}</p>
+                            <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </Container>
+    )
+}
+
+
+/* import { ReactNode } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
@@ -18,7 +54,7 @@ export function WeDoCards({ title, description, icon, solution }: CardProps) {
                 </div>
             </div>
             <div className="w-full flex flex-col text-center justify-center items-center text-white">
-                <h2 className="text-lg font-medium">{title}</h2>
+                <h2 className="text-lg font-medium uppercase">{title}</h2>
                 <p className="mt-5">{description}</p>
                 <Link to={`/`} className="flex flex-row items-center gap-1 mt-10">
                     <FaArrowRight />
@@ -27,4 +63,4 @@ export function WeDoCards({ title, description, icon, solution }: CardProps) {
             </div>
         </div>
     )
-}
+} */

@@ -1,7 +1,11 @@
 import React, { Fragment, ReactNode } from 'react';
 import Header from "./components/Header";
-import { Navbar } from "./components/Header/Navbar";
 import { Footer } from './components/Footer';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 
 export interface Props {
     children: ReactNode
@@ -15,7 +19,6 @@ export const Layout: React.FC<Props> = ({
         <Fragment>
             <div className="flex flex-col w-full">
                 <Header />
-                <Navbar />
                 {children}
                 <Footer />
             </div>
