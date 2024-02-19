@@ -6,7 +6,7 @@ import Logo1 from '../../../assets/logo1.svg';
 import { Link, useLocation } from "react-router-dom";
 
 
-export function Navbar({ banner = '' }: { banner?: string }) {
+export function Navbar() {
     const navRef = useRef<any>()
 
     const showNavBar = () => {

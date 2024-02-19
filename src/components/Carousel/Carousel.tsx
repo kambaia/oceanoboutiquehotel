@@ -66,7 +66,7 @@ export default function Carousel({
 
     return (
         <div className="overflow-hidden relative h-[100vh]">
-            <Navbar banner={'banner'} />
+            <Navbar />
 
             <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
                 <Container>
