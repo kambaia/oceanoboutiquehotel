@@ -14,7 +14,7 @@ export function CardWeGive({ title, description, icon, order }: CardProps) {
         <div>
             <div className="z-10 relative w-[300px] h-[450px] rounded-md bg-white p-5 flex flex-col gap-5">
                 <div className="w-full flex justify-start items-start mt-5">
-                    <div className="w-[90px] h-[90px] bg-blue-600 rounded-full flex justify-center items-center">
+                    <div className="w-[90px] h-[90px] bg-red-600 rounded-full flex justify-center items-center">
                         {icon}
                     </div>
                 </div>

@@ -13,11 +13,11 @@ export function OurWhy() {
                 </div>
 
                 <div className="w-[40%] mt-20 flex flex-col gap-1">
-                    <h3 className="text-blue-600 text-lg font-medium">O NOSSO PORQUÊ</h3>
+                    <h3 className="text-red-600 text-lg font-medium">O NOSSO PORQUÊ</h3>
                     <h1 className="font-medium text-4xl">Criar valor para Pessoas, Organizações e Sociedade.</h1>
                     <p className="text-gray-700 text-base mt-8">Acreditamos num futuro em que os líderes, colaboradores e as respetivas organizações atingem o seu máximo potencial para fazerem com que as suas organizações e pessoas possam prosperar. O nosso propósito passa por contribuir para que líderes e organizações construam um legado positivo e duradouro.</p>
                     <div className="w-full flex flex-row justify-around items-center h-[100px]">
-                        <GiLaurelsTrophy className="text-7xl text-blue-600" />
+                        <GiLaurelsTrophy className="text-7xl text-red-600" />
                         <h2 className="font-bold text-xl border-l-2 h-[70px] flex items-center pl-4">Empowering Leaders and Organizations</h2>
                     </div>
                 </div>
