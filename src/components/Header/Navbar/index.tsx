@@ -1,7 +1,7 @@
 import { useRef } from "react"
 import { FaBars, FaTimes, FaPhone } from "react-icons/fa"
 import Container from "../../share/container"
-
+import Logo from '../../../assets/logo.svg';
 
 export function Navbar() {
 
@@ -16,7 +16,7 @@ export function Navbar() {
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
                     <div>
-                        <div><img src="../../logo/logo-branco.svg"/></div>
+                        <div className="w-52"><img src={Logo}/></div>
                     </div>
                     <nav className="flex items-center gap-10 justify-center" ref={navRef}>
                         <div className="nav-buttons">

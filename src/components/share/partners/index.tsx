@@ -11,7 +11,7 @@ export function Partners() {
         <Container>
             <div className='py-10'>
                 <div className="w-full flex flex-col text-center items-center justify-center pb-10 text-xl gap-2">
-                    <h2 className="text-blue-600">PARCEIROS</h2>
+                    <h2 className="text-red-600">PARCEIROS</h2>
                     <h1 className="text-4xl font-medium">Alguns dos nossos parceiros</h1>
                 </div>
                 <div className='w-full flex flex-row flex-wrap justify-between'>

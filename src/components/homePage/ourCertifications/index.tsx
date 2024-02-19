@@ -10,9 +10,9 @@ export function Certification() {
         <Container>
             <div className="py-20">
                 <div className="w-full flex flex-col text-center items-center justify-center pt-20 pb-20 text-xl gap-2">
-                    <h2 className="text-blue-600">EVOLUÇÃO PROFISSIONAL</h2>
+                    <h2 className="text-red-600">EVOLUÇÃO PROFISSIONAL</h2>
                     <h1 className="text-4xl font-medium">Certificações e reconhecimentos</h1>
-                    <p className="w-[100px] border-b-2   border-blue-500"></p>
+                    <p className="w-[100px] border-b-2   border-red-500"></p>
                 </div>
                 <div className='w-full flex flex-row gap-5 justify-center'>
                     <div className='w-[120px]'>

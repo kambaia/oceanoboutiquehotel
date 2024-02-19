@@ -12,7 +12,7 @@ import ImageCarousel from "../../components/Carousel";
 
 export default function HomePage() {
 
-    return (
+    return ( 
         <Layout>
             <div className="w-full">
                 <ImageCarousel />

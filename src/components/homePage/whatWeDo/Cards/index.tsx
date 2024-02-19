@@ -18,7 +18,7 @@ export function WeDoCards({ title, description, icon, solution }: CardProps) {
                 </div>
             </div>
             <div className="w-full flex flex-col text-center justify-center items-center text-white">
-                <h2 className="text-lg font-medium">{title}</h2>
+                <h2 className="text-lg font-medium uppercase">{title}</h2>
                 <p className="mt-5">{description}</p>
                 <Link to={`/`} className="flex flex-row items-center gap-1 mt-10">
                     <FaArrowRight />

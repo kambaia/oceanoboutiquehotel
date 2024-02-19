@@ -8,9 +8,9 @@ export function WhatWeGive() {
         <Container>
             <div className="w-full pb-32">
                 <div className="w-full flex flex-col text-center items-center justify-center pt-20 pb-20 text-xl gap-2">
-                    <h2 className="text-blue-600">O QUE ENTREGAMOS</h2>
+                    <h2 className="text-red-600">O QUE ENTREGAMOS</h2>
                     <h1 className="text-4xl font-medium">Algumas das nossas Soluções</h1>
-                    <p className="w-[100px] border-b-2   border-blue-500"></p>
+                    <p className="w-[100px] border-b-2   border-red-500"></p>
                 </div>
                 <div className="flex flex-row justify-center flex-wrap gap-5">
                     <CardWeGive order="01" title="Assessoria Financeira" description="Apoio na gestão financeira, redução de custos de financiamento, otimização contabilística, financeira e fiscal e apoio ao nível das decisões de investimento." icon={<FaPiggyBank className="w-full text-5xl text-center text-white" />} />

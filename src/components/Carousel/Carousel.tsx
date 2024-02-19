@@ -22,32 +22,43 @@ export default function Carousel({
     const [curr, setCurr] = useState(0);
     const [currS, setCurrS] = useState(0);
     const tl = useRef<any>(null);
+    const tl_banner = useRef<any>(null);
 
     const toggleTimeline = () => {
         tl.current.reversed(!tl.current.reversed());
+    };
+    const toggleTimelineBanner = () => {
+        tl_banner.current.reversed(!tl.current.reversed());
     };
 
 
     const prev = () => {
         gsap.to(tl.current, { duration: 1, x: 100, opacity: 0.5 });
+        gsap.to(tl_banner.current, { duration: 1, x: 100, opacity: 0.5 });
         setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
         setCurrS(curr === 0 ? slides.length - 1 : curr - 1)
         toggleTimeline();
+        toggleTimelineBanner();
     }
     const next = () => {
         gsap.to(tl.current, { duration: 1, x: 100, opacity: 0.5 });
+        gsap.to(tl_banner.current, { duration: 1, x: 100, opacity: 0.5 });
         setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
         setCurrS(curr === 0 ? slides.length - 1 : curr - 1);
         toggleTimeline();
+        toggleTimelineBanner();
     }
     useEffect(() => {
         if (!autoSlide) return;
         const slideInterval = setInterval(next, autoSlideInterval);
         gsap.to(tl.current, { duration: 1, x: -300, opacity: 0 }); // Animar para a esquerda
         gsap.to(tl.current, { delay: 1, duration: 1, x: 0, opacity: 1 }); // Animar de volta para a posição inicial
+        gsap.to(tl_banner.current, { duration: 1, y: 300, opacity: 0 }); // Animar para a esquerda
+        gsap.to(tl_banner.current, { delay: 1, duration: 1, y: 0, opacity: 1 }); // Animar de volta para a posição inicial
         return () => {
             clearInterval(slideInterval);
             gsap.killTweensOf(tl);
+            gsap.killTweensOf(tl_banner);
         }
     }, [currS]);
 
@@ -98,7 +109,7 @@ export default function Carousel({
 
             <div className="absolute bottom-0 right-0 left-0">
 
-                <div className="banner z-40 h-[65vh] w-full left-0 right-0">
+                <div ref={tl_banner} className="banner z-40 h-[65vh] w-full left-0 right-0">
                 <div className="absolute inset-0 flex items-center justify-end gap-2 top-72 px-6 z-50 ">
                     <button
                         onClick={() => prev()}
