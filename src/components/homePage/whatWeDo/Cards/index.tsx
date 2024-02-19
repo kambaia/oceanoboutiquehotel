@@ -1,13 +1,9 @@
 import Container from "../../../share/container"
-import { Link } from "react-router-dom";
-import Image1 from '../../../../assets/Solutions/Card/solution1.jpg'
-import Image2 from '../../../../assets/Solutions/Card/solution2.jpg'
-import Image3 from '../../../../assets/Solutions/Card/solution3.jpg'
 
 type CardProps = {
     title: string
     description: string
-    image: ReactNode
+    image: string
 }
 
 export function WeDoCards({ title, description, image }: CardProps) {

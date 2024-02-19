@@ -1,5 +1,4 @@
 import Layout from "../../layout";
-import Carrossel from "../../components/carrossel";
 import { WhatWeDo } from "../../components/homePage/whatWeDo";
 import { WhatWeGive } from "../../components/homePage/whatWeGive";
 import { OurWhy } from "../../components/homePage/ourWhy";

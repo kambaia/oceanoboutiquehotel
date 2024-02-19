@@ -43,7 +43,7 @@ export default function ContactPage() {
                             <input type="email" placeholder="Email" className="bg-transparent border-b p-1 outline-none text-base text-white w-full placeholder:text-white focus:bg-transparent" />
                             <input type="text" placeholder="Telefone" className="bg-transparent border-b p-1 outline-none text-base text-white w-full placeholder:text-white focus:bg-transparent" />
                         </div>
-                        <textarea name="message" id="message" cols="30" rows="6" placeholder="Digite a sua Mensagem" className="bg-transparent border-b w-full text-white text-base outline-none placeholder:text-white"></textarea>
+                        <textarea name="message" id="message" cols={30} rows={6} placeholder="Digite a sua Mensagem" className="bg-transparent border-b w-full text-white text-base outline-none placeholder:text-white"></textarea>
                         <div className="w-full mt-[-30px]">
                             <button className="flex flex-row items-center gap-1 text-red-600 bg-white p-4 px-6 rounded-md">
                                 <p className="font-medium">Enviar Mensagem</p>

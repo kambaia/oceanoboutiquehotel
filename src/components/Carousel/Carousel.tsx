@@ -96,7 +96,7 @@ export default function Carousel({
                 className="flex border transition-transform ease-out duration-500"
                 style={{ transform: `translateX(-${curr * 100}%)` }}
             >
-                {slides.map((img, index) => (
+                {slides.map((img) => (
                     <>
                         <img src={img} alt="" />
                     </>

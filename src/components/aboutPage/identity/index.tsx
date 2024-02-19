@@ -1,10 +1,6 @@
 import Container from '../../share/container';
 
 import Image from '../../../assets/identity.jpg'
-import Sign from '../../../assets/sign.png'
-
-import { SiVerizon } from "react-icons/si";
-
 export function Identity() {
     return (
         <Container>
