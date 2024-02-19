@@ -15,7 +15,9 @@ export function Navbar() {
         <header className=" absolute top-0 shadow-lg w-full z-50 flex flex-row items-center justify-between h-[90px] p-0 ">
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
-
+                    <div>
+                        <div><img src="../../logo/logo-branco.svg"/></div>
+                    </div>
                     <nav className="flex items-center gap-10 justify-center" ref={navRef}>
                         <div className="nav-buttons">
                             <a className="m-0 decoration-0 text-base font-medium text-[#FF0000]" href="/">HOME</a>
