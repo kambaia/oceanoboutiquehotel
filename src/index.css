@@ -146,6 +146,10 @@ nav a {
         gap: 256px;
         margin: 40px;
     }
+
+    .our-why{
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -185,7 +189,6 @@ nav a {
     .our-why {
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
     }
 
     .macro-image {

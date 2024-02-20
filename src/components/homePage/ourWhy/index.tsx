@@ -9,7 +9,7 @@ AOS.init();
 export function OurWhy() {
     return (
         <Container>
-            <div className="our-why w-full flex flex-row justify-around" >
+            <div className="our-why w-full flex flex-row justify-around">
 
                 <div className="macro-image w-[60%] h-[600px]" data-aos="fade-left">
                     <div className="macro w-[600px] h-full absolute ">

@@ -66,7 +66,7 @@ export default function Carousel({
 
     return (
         <div className="carousel overflow-hidden relative h-[100vh]">
-            <Navbar banner={'banner'} />
+            <Navbar />
 
             <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
                 <Container>
@@ -96,7 +96,7 @@ export default function Carousel({
                 className="flex border transition-transform ease-out duration-500"
                 style={{ transform: `translateX(-${curr * 100}%)` }}
             >
-                {slides.map((img, index) => (
+                {slides.map((img) => (
                     <>
                         <img src={img} alt="" />
                     </>

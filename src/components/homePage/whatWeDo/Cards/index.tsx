@@ -1,10 +1,9 @@
 import Container from "../../../share/container"
-import { ReactNode } from "react"
 
 type CardProps = {
     title: string
     description: string
-    image: ReactNode
+    image: string
 }
 
 import 'aos/dist/aos.css';
