@@ -65,21 +65,21 @@ export default function Carousel({
 
 
     return (
-        <div className="overflow-hidden relative h-[100vh]">
+        <div className="carousel overflow-hidden relative h-[100vh]">
             <Navbar banner={'banner'} />
 
             <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
                 <Container>
-                    <div className="py-[8%] w-[50%]">
+                    <div className="carousel-details py-[8%] w-[50%]">
                         <div className="flex items-center gap-8 text-3xl text-white">
                             <a href="https://www.youtube.com/watch?v=Z_TepAU9mJk" className="play-btn mb-3 text-1xl"></a>
-                             <span className="text-[18px]">VER VÍDEO</span>
+                            <span className="text-[18px]">VER VÍDEO</span>
                         </div>
                         <h1 style={{ transform: `translateX(-100)` }} ref={tl} className="box text-white">
                             <span className="font-bold text-[#FF0000] text-6xl">{string[currS].title}</span> <span className="text-5xl font-light"> {string[currS].p}</span></h1>
                     </div>
 
-                    <div className="flex items-center justify-start z-50 gap-2">
+                    <div className="carousel-position flex items-center justify-start z-50 gap-2">
                         {slides.map((_, i) => (
                             <div className="flex justify-center items-center border border-red-500 w-5 h-5 rounded-full">
                                 <div
@@ -103,10 +103,7 @@ export default function Carousel({
                 ))}
             </div>
 
-
-
-            <div className="absolute bottom-0 right-0 left-0">
-
+            <div className="carousel-controler absolute bottom-0 right-20 left-0 ">
                 <div ref={tl_banner} className="banner z-40 h-[65vh] w-full left-0 right-0">
                     <div ref={tl_banner} className="absolute right-0 inset-0 flex items-center justify-end gap-2 top-72 px-6 z-50 ">
                         <button
