@@ -8,7 +8,7 @@ import Container from "../share/container";
 
 export default function Header() {
     return (
-        <div className="w-full py-4 bg-deep-gray text-white flex ">
+        <div className="header-informations w-full py-4 bg-deep-gray text-white flex ">
             <Container>
                 <div className="flex flex-row flex-wrap gap-5 justify-between items-center">
 

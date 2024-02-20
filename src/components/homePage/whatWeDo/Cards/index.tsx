@@ -6,14 +6,15 @@ type CardProps = {
     image: string
 }
 
-import AOS from 'aos';
 import 'aos/dist/aos.css';
+import AOS from 'aos';
+
 AOS.init();
 
 export function WeDoCards({ title, description, image }: CardProps) {
     return (
         <Container>
-            <div className="grid items-center justify-center rounded-md" data-aos="fade-left">
+            <div className="we-do-card grid items-center justify-center rounded-md" data-aos="fade-left">
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 rounded-md">
                     <div className="rounded-md w-[288px] left-0 right-0 bg-blue-500 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                         <div className="h-[400px] w-72 rounded-md">
@@ -32,35 +33,3 @@ export function WeDoCards({ title, description, image }: CardProps) {
         </Container>
     )
 }
-
-
-/* import { ReactNode } from "react";
-import { FaArrowRight } from "react-icons/fa6";
-import { Link } from "react-router-dom";
-
-type CardProps = {
-    title: string
-    description: string
-    icon: ReactNode
-    solution: string
-}
-
-export function WeDoCards({ title, description, icon, solution }: CardProps) {
-    return (
-        <div className={`${solution} w-[300px] h-[450px] shadow-lg flex flex-col items-center gap-6 p-5 pt-10 bg-black`}>
-            <div className="w-full flex justify-center items-center">
-                <div className="w-[70px] h-[70px] bg-gray-100 rounded-full flex justify-center items-center">
-                    {icon}
-                </div>
-            </div>
-            <div className="w-full flex flex-col text-center justify-center items-center text-white">
-                <h2 className="text-lg font-medium uppercase">{title}</h2>
-                <p className="mt-5">{description}</p>
-                <Link to={`/`} className="flex flex-row items-center gap-1 mt-10">
-                    <FaArrowRight />
-                    <p>SAIBA MAIS</p>
-                </Link>
-            </div>
-        </div>
-    )
-} */
