@@ -27,10 +27,11 @@ export default function SingleService() {
                             <div className="w-20 h-20 bg-red-500 "></div>
                         </div>
                         <h1 className="uppercase text-red-600 text-xl font-medium">{myServices?.title}</h1>
-                        <h1 className="capitalize text-black text-3xl font-bold">{myServices?.title}</h1>
+
                         {conteudo?.map((text) => (
                             <>
-                                <div className="pr-10">
+                                <h1 className="capitalize text-black text-3xl font-bold">{text.title}</h1>
+                                <div className="pr-10 flex flex-col gap-4">
                                     <p className="text-base text-gray-500 text-justify">{text.section}</p>
                                     <p className="text-base text-gray-500 text-justify">{text.sectionB}</p>
                                     <p className="text-base text-gray-500 text-justify">{text.sectionC}</p>
