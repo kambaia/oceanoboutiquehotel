@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 
 type BannerProps = {
-    title: string
+    title?: string
     tipo: string
 }
 

@@ -106,7 +106,7 @@ export default function Carousel({
 
             <div className={`carousel-controler absolute bottom-0 right-0 left-0`}>   
                 <div ref={tl_banner} className="banner z-40 h-[65vh] w-full left-0 right-0">
-                    <div ref={tl_banner} className={`absolute right-0 ${slides.length === 0 ? 'right-0' : 'right-24'} inset-0 flex items-center justify-end gap-2 top-72 px-6 z-50`}>
+                    <div ref={tl_banner} className={`absolute bottom-0 right-0 ${slides.length === 0 ? 'right-0' : 'right-24'} inset-0 flex items-center justify-end gap-2 top-72 px-6 z-50`}>
                         <button
                             onClick={() => prev()}
                             className="p-2 rounded-full shadow bg-[rgba(246,244,244,0.57)] text-gray-800 hover:bg-white"

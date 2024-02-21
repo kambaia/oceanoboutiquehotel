@@ -1,9 +1,11 @@
 import Container from "../../../share/container"
+import { Link } from "react-router-dom";
 
 type CardProps = {
     title: string
     description: string
     image: string
+    url: string
 }
 
 import 'aos/dist/aos.css';
@@ -11,7 +13,7 @@ import AOS from 'aos';
 
 AOS.init();
 
-export function WeDoCards({ title, description, image }: CardProps) {
+export function WeDoCards({ title, description, image, url }: CardProps) {
     return (
         <Container>
             <div className="we-do-card grid items-center justify-center rounded-md" data-aos="fade-left">
@@ -24,7 +26,7 @@ export function WeDoCards({ title, description, image }: CardProps) {
                         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                             <h1 className="font-dmserif text-xl font-bold text-white">{title}</h1>
                             <p className="my-3 text-base italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">{description}</p>
-                            <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                            <Link to={`/service/${url}`} className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Saber Mais</Link>
                         </div>
                     </div>
                 </div>
