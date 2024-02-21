@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import { FaBars, FaTimes, FaPhone, FaWhatsapp } from "react-icons/fa"
+import { FaBars, FaTimes, FaWhatsapp } from "react-icons/fa"
 import Container from "../../share/container"
 import Logo from '../../../assets/logo.svg';
 import Logo1 from '../../../assets/logo1.svg';
