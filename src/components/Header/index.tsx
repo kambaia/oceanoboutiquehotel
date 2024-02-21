@@ -15,7 +15,7 @@ export default function Header() {
                     <div className="flex flex-row gap-5">
                         <div className="flex flex-row gap-2 justify-between items-center ">
                             <FaLocationDot />
-                            <p>Via Expressa,Luanda, Angola</p>
+                            <p>Via Expressa, Luanda, Angola</p>
                         </div>
 
 

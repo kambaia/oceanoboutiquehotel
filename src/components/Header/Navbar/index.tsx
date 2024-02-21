@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import { FaBars, FaTimes, FaPhone } from "react-icons/fa"
+import { FaBars, FaTimes, FaWhatsapp } from "react-icons/fa"
 import Container from "../../share/container"
 import Logo from '../../../assets/logo.svg';
 import Logo1 from '../../../assets/logo1.svg';
@@ -27,8 +27,6 @@ export function Navbar() {
     useEffect(() => {
         window.addEventListener("scroll", handleStickyNavbar);
     });
-    console.log(location.pathname)
-
 
     return (
         <header className={`top-0 w-full z-50 flex flex-row items-center justify-between h-[90px] p-0  ${sticky?'fixed top-0 bg-white shadow-lg': `absolute ` }`}>
@@ -41,7 +39,6 @@ export function Navbar() {
                         <div className="nav-buttons">
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': ' text-white'}` } to="/">HOME</Link>
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/solucao' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/solucao' ? 'text-[#FF0000]': 'text-white'}` } to="#">SOLUÇÕES</Link>
-                            <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/blog' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/blog' ? 'text-[#FF0000]': 'text-white'}`} to="#">BLOG</Link>
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-white'}`} to="/sobre-nos">SOBRE</Link>
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': 'text-white'}`} to="/contacto">CONTACTOS</Link>
                         </div>
@@ -49,7 +46,7 @@ export function Navbar() {
                     </nav>
 
                     <div className={`support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center ${sticky?'border-l border-black ': ` ` }`}>
-                        <FaPhone className="text-3xl text-[#FF0000]" />
+                      <Link to={'/port'} >  <FaWhatsapp className="text-3xl text-[#FF0000]" /></Link>
                         <div className="flex flex-col">
                             <p className={sticky ? `text-sm text-black` : `text-sm text-white`}>Tem Alguma Questão?</p>
                             <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}>(+244) 931 251 965</p>

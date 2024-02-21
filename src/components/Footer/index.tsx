@@ -22,9 +22,6 @@ export function Footer() {
                             <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Home</Link></li>
                             <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Soluções</Link></li>
                             <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Sobre</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Ferramentas</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Blog</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Glossário</Link></li>
                             <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Contactos</Link></li>
                         </ul>
                     </div>

@@ -1,16 +1,17 @@
 import Container from "../../share/container";
+import { services } from "../../../utils/services";
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
 import { WeDoCards } from "./Cards"
-import Image1 from '../../../assets/Solutions/Card/solution1.jpg'
-import Image2 from '../../../assets/Solutions/Card/solution2.jpg'
-import Image3 from '../../../assets/Solutions/Card/solution3.jpg'
-import Image4 from '../../../assets/Solutions/Card/solution4.jpg'
 
 export function WhatWeDo() {
+
+    
+
     return (
         <Container>
             <div className="">
@@ -62,12 +63,12 @@ export function WhatWeDo() {
 
                 </div>
  
-                <div className="we-do-cards pt-10 pb-10 flex flex-row  justify-between overflow-x-auto">
-                    <WeDoCards image={Image1} title="Estudos Financeiros e Análise de Viabilidade" description="Analisamos o potencial do seu negócio ou ideia, prestando serviços de aconselhamento estratégico que representam uma importante mais valia na alavancagem de um negócio." />
-                    <WeDoCards image={Image2} title="Planos de Marketing e Estudos de Mercado" description="Por forma a garantir que atingirá o seu público-alvo da forma mais rentável e eficiente, é essencial o investimento num forte e estruturado plano de comunicação e de marketing..." />
-                    <WeDoCards image={Image3} title="Aconselhamento técnico na agricultura" description="Para garantir que o produtor agricola tenha sucesso e alta produtividade prestamos apoio técnico agricola na produção de leguminosas, frutas e hortaliças." />
-                    <WeDoCards image={Image4} title="Avaliação de empresas e negócios" description="A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica. " />
-                    <WeDoCards image={Image4} title="Avaliação de empresas e negócios" description="A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica. " />
+                <div className="we-do-cards pt-10 pb-10 flex flex-row  justify-between overflow-x-auto overflow-hidden">
+                    {services.map((service) => (
+                        <>
+                            <WeDoCards url={service.url} title={service.title} description={service.description} image={service.image} />
+                        </>
+                    ))}
                 </div>
             </div>
         </Container>
