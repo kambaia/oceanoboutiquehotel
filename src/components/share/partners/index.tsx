@@ -1,13 +1,8 @@
 import Container from '../container'
-
 import partner1 from '../../../assets/Partners/partner1.png'
 import partner2 from '../../../assets/Partners/partner2.png'
 import partner3 from '../../../assets/Partners/partner3.png'
 import partner4 from '../../../assets/Partners/partner4.png'
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 
 export function Partners() {
     return (

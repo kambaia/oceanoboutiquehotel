@@ -266,6 +266,14 @@ nav a {
         border: 3px solid #fff;
         border-radius: 100%;
     }
+
+    .identity-image .golden-circle {
+        display: none;
+        visibility: 0;
+        opacity: 0;
+    }
+
+
 }
 
 @keyframes cortina {

@@ -2,10 +2,6 @@ import client1 from '../../../assets/Testemonials/client1.png'
 import client2 from '../../../assets/Testemonials/client2.png'
 import client3 from '../../../assets/Testemonials/client3.png'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
-
 export function Partner() {
     return(
         <div className="partner w-full flex flex-row flex-wrap gap-10 justify-center items-center pr-10 py-28  ">

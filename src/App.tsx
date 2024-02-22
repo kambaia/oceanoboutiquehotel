@@ -2,8 +2,12 @@ import HomePage from './pages/Home'
 import AboutPage from './pages/About'
 import ContactPage from './pages/Contact'
 import SingleService from './pages/Single-Service'
-import './index.css'
 import { Route, Routes } from 'react-router-dom'
+import './index.css'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function App() {
   return (

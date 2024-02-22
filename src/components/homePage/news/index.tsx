@@ -1,16 +1,10 @@
 import Container from '../../share/container'
-
 import image1 from '../../../assets/news/new-year.jpg'
 import image2 from '../../../assets/news/leader.jpg'
 import image3 from '../../../assets/news/microconsulting.jpg'
 import person from '../../../assets/person.jpg'
-
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 
 export function Notices() {
     return (
@@ -21,8 +15,6 @@ export function Notices() {
                     <h1 className="text-4xl font-medium">Leia aqui as mais recentes novidades</h1>
                 </div>
                 <div className="flex flex-row flex-wrap gap-5 justify-center">
-
-
 
                     <div data-aos="fade-down" data-aos-delay="100" className="w-[350px] bg-white rounded-md mt-10">
                         <img src={image1} alt="New Year 2023" className='w-full h-[220px] rounded-t-md' />
@@ -42,9 +34,7 @@ export function Notices() {
                         </Link >
                     </div>
 
-
-
-                    <div  data-aos="fade-down" data-aos-delay="300" className="w-[350px] h-[640px] bg-white rounded-md">
+                    <div data-aos="fade-down" data-aos-delay="300" className="w-[350px] h-[640px] bg-white rounded-md">
                         <img src={image2} alt="New Year 2023" className='w-full h-[220px] rounded-t-md' />
                         <div className='flex flex-row justify-start items-center gap-4 w-full p-5'>
                             <img src={person} alt="User" className='w-10 h-10 rounded-full' />
@@ -62,8 +52,7 @@ export function Notices() {
                         </Link >
                     </div>
 
-
-                    <div  data-aos="fade-down" data-aos-delay="500" className="w-[350px] bg-white rounded-md mt-10">
+                    <div data-aos="fade-down" data-aos-delay="500" className="w-[350px] bg-white rounded-md mt-10">
                         <img src={image3} alt="New Year 2023" className='w-full h-[220px] rounded-t-md' />
                         <div className='flex flex-row justify-start items-center gap-4 w-full p-5'>
                             <img src={person} alt="User" className='w-10 h-10 rounded-full' />
@@ -80,7 +69,6 @@ export function Notices() {
                             <FaLongArrowAltRight />
                         </Link >
                     </div>
-
 
                 </div>
             </div>

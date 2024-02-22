@@ -1,10 +1,5 @@
 import Container from "../../share/container"
-
 import { GoDotFill } from "react-icons/go";
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 
 export function Service() {
     return (
@@ -19,8 +14,7 @@ export function Service() {
                 <p className="w-[750px] text-center text-lg service-description">Na <b>B.ALFA</b> você conta com Soluções Diferenciadas e Personalizadas com foco na sua real necessidade para aumentar a sua produtividade e rentabilidade.</p>
                 <h1 className="text-2xl text-center font-medium mt-4 text-red-600 section-titles">CONFIRA COMO FUNCIONA O NOSSO ATENDIMENTO:</h1>
                 <div className="section-service flex flex-row justify-between w-full mt-10">
-                    
-                    
+
                     <div data-aos="zoom-in" data-aos-delay="100" className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">1º</h1>
                         <p className="text-white ">Entendemos qual é o seu negócio e a sua linha de atuação;</p>
@@ -34,11 +28,9 @@ export function Service() {
                         <p className="text-white ">Realizamos o acompanhamento com uma equipe altamente especializada;</p>
                     </div>
 
-
                 </div>
                 <div className="section-service flex flex-row justify-center gap-48 w-full mt-10">
-                    
-                    
+
                     <div data-aos="zoom-in" data-aos-delay="200" className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">2º</h1>
                         <p className="text-white ">Compreendemos a sua demanda;</p>
@@ -47,7 +39,6 @@ export function Service() {
                         <h1 className="text-7xl font-medium text-white opacity-60">4º</h1>
                         <p className="text-white ">Elaboramos o projeto para realizar o financiamento e as operações de crédito;</p>
                     </div>
-
 
                 </div>
                 <div className="service-description flex flex-col gap-8 w-[600px] mt-10">

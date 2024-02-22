@@ -8,11 +8,6 @@ type CardProps = {
     url: string
 }
 
-import 'aos/dist/aos.css';
-import AOS from 'aos';
-
-AOS.init();
-
 export function WeDoCards({ title, description, image, url }: CardProps) {
     return (
         <Container>
@@ -31,7 +26,6 @@ export function WeDoCards({ title, description, image, url }: CardProps) {
                     </div>
                 </div>
             </div>
-
         </Container>
     )
 }
