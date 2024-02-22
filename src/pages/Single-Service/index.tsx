@@ -18,9 +18,10 @@ export default function SingleService() {
             <div className="w-full bg-white relative">
                 <Navbar />
             </div>
-            <TopBanner title={myServices?.title} tipo="contact-banner" />
+            <TopBanner title={myServices?.title} tipo="contact-banner text-center" />
             <Container>
-                <div className="flex flex-row justify-around gap-0 py-20">
+                <div className="flex flex-row flex-wrap justify-around gap-0 py-20 max-lg:py-0 max-lg:pb-10">
+
 
                     <div className="flex flex-col justify-center gap-4 max-w-2xl py-20 m-0 p-0">
                         <div className="w-full flex items-end justify-end">
@@ -31,7 +32,7 @@ export default function SingleService() {
                         {conteudo?.map((text) => (
                             <>
                                 <h1 className="capitalize text-black text-3xl font-bold">{text.title}</h1>
-                                <div className="pr-10 flex flex-col gap-4">
+                                <div className="pr-10 flex flex-col gap-4 max-lg:p-0 max-lg:w-full">
                                     <p className="text-base text-gray-500 text-justify">{text.section}</p>
                                     <p className="text-base text-gray-500 text-justify">{text.sectionB}</p>
                                     <p className="text-base text-gray-500 text-justify">{text.sectionC}</p>
@@ -40,16 +41,19 @@ export default function SingleService() {
                         ))}
                     </div>
 
-                    <div className="m-0 p-0">
+
+                    <div className="m-0 p-0 max-lg:w-full">
                         {conteudo?.map((image) => (
                             <>
-                                <div className={`h-[720px] w-[600px] bg-cover bg-center text-center relative z-20`}>
-                                    <img src={image.image} alt="Background Image" className="w-full align-middle h-full object-cover object-center" />
+                                <div className={`h-[720px] w-[600px] bg-cover bg-center text-center relative z-20 max-lg:w-full max-lg:h-[500px]`}>
+                                    <img src={image.image} alt="Background Image" className="w-full align-middle h-full object-cover object-center max-lg:w-full" />
                                 </div>
-                                <div className={`h-[720px] w-[600px] mt-[-695px] ml-[25px] z-10 bg-gray-100 text-center `}></div>
+                                <div className={`h-[720px] w-[600px] mt-[-695px] ml-[25px] z-10 bg-gray-100 text-center max-lg:hidden`}></div>
                             </>
                         ))}
                     </div>
+
+
                 </div>
             </Container>
             <Partner />

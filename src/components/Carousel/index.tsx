@@ -14,7 +14,7 @@ export default function ImageCarousel() {
 
   return (
     <div className="relative">
-      <div className="max-full  ">
+      <div className="max-full">
         <Carousel slides={slides} string={string}/>
       </div>
     </div>

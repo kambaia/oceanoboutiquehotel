@@ -62,6 +62,7 @@ export function Footer() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </Container>
 

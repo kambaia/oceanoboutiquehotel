@@ -11,7 +11,6 @@ import { Partner } from "../../components/share/partner";
 import ImageCarousel from "../../components/Carousel";
 
 export default function HomePage() {
-
     return ( 
         <Layout>
             <div className="w-full">
