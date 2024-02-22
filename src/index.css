@@ -317,7 +317,7 @@ nav a {
 }
 
 .macro {
-    background-image: url(https://macroconsulting.pt/wp-content/uploads/2022/03/controlo-de-gestao-consultoria-controlo-de-gestao-macro-consulting.jpg);
+    background-image: url('./assets/macro.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
