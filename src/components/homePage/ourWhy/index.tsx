@@ -1,15 +1,9 @@
-import { GiLaurelsTrophy } from "react-icons/gi";
 import Container from "../../share/container";
-
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-
-AOS.init();
 
 export function OurWhy() {
     return (
         <Container>
-            <div className="our-why w-full flex flex-row justify-around">
+            <div className="our-why w-full flex flex-row justify-around py-20">
 
                 <div className="macro-image w-[60%] h-[600px]" data-aos="fade-left">
                     <div className="macro w-[600px] h-full absolute ">
@@ -17,14 +11,13 @@ export function OurWhy() {
                     </div>
                 </div>
 
-                <div className="macro-content w-[40%] mt-20 flex flex-col gap-1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div className="macro-content w-[40%] flex flex-col gap-1 justify-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     <h3 className="section-titles text-red-600 text-lg font-medium">O NOSSO PORQUÊ</h3>
-                    <h1 className="section-description font-medium text-4xl">Criar valor para Pessoas, Organizações e Sociedade.</h1>
-                    <p className=" text-gray-700 text-base mt-8">Acreditamos num futuro em que os líderes, colaboradores e as respetivas organizações atingem o seu máximo potencial para fazerem com que as suas organizações e pessoas possam prosperar. O nosso propósito passa por contribuir para que líderes e organizações construam um legado positivo e duradouro.</p>
-                    <div className="w-full flex flex-row justify-around items-center h-[100px]">
-                        <GiLaurelsTrophy className="text-7xl text-red-600" />
-                        <h2 className="font-bold text-xl border-l-2 h-[70px] flex items-center pl-4">Empowering Leaders and Organizations</h2>
-                    </div>
+                    <h1 className="section-description font-medium text-4xl">Consultoria e Investimentos: Impulsionando o Crescimento em Angola.</h1>
+                    <p className=" text-gray-700 text-base mt-5">A B.Alfa  investimentos e consultoria  é uma empresa de consultoria  e investimentos , com competências nos domínios da economia ,agricultura , pescas e pecuária .</p>
+                    <p className="text-gray-700 text-base mt-3">É empresa uma multidisciplinar  de especialistas com ekpertase nos  domínios da economia , finanças, gestão de projectos, estão de empresas, agricultura, pesca , pecuaária  . Este conjunto de  know how faz da B.Alfa um centro de conhecimento de apoio à negócios importante. </p>
+                    <p className="text-gray-700 text-base mt-3">Num momento actual em que todas economias do mundo vivem incertezas , o mercado Angolano tem desafios de crescimento e divercificação da sua  economia . Esses desafios passam essencialmente pela consolidação do técido empresarial.</p>
+                    <p className="text-gray-700 text-base mt-3">Com uma equipa de  consultores com uma elevada qualificação técnica e uma forte experiência profissional a actividade de consultoria do grupo está voltada às micro, pequenas, médias empresas e à investidores extrangeiros com interesses de estabelecer negócios no mercado Angolano.</p>
                 </div>
             </div>
         </Container>

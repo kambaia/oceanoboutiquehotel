@@ -1,13 +1,8 @@
 import Container from '../../share/container'
-
 import Certification1 from '../../../assets/New folder/certification1.png'
 import Certification2 from '../../../assets/New folder/certification2.jpg'
 import Certification3 from '../../../assets/New folder/certification3.jpg'
 import Certification4 from '../../../assets/New folder/certification4.jpg'
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 
 export function Certification() {
     return (

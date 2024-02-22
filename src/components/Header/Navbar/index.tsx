@@ -29,7 +29,7 @@ export function Navbar() {
     });
 
     return (
-        <header className={`top-0 w-full z-50 flex flex-row items-center justify-between h-[90px] p-0  ${sticky?'fixed top-0 bg-white shadow-lg': `absolute ` }`}>
+        <header className={`top-0 w-full z-50 flex flex-row items-center justify-between h-[90px] p-0  ${sticky ? 'fixed top-[-2px] bg-white shadow-lg' : `absolute `}`}>
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
                     <div>
@@ -52,9 +52,7 @@ export function Navbar() {
                             <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}>(+244) 931 251 965</p>
                         </div>
                     </div>
-
                     <button className="nav-btn" onClick={showNavBar}> <FaBars /> </button>
-
                 </div>
             </Container>
         </header>

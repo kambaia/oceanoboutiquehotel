@@ -1,7 +1,6 @@
 import { ReactNode } from "react"
 import { Link } from "react-router-dom"
 
-
 type CardProps = {
     title: string
     description: string

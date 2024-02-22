@@ -17,11 +17,11 @@ export default function HomePage() {
             <div className="w-full">
                 <ImageCarousel />
             </div>
-            <WhatWeDo />
+            <OurWhy />
             {/* <div className="w-full bg-gradient-to-r from-[#EDF5FF] to-[#CCDFF7] my-10">
                 <WhatWeGive />
             </div> */}
-            <OurWhy />
+            <WhatWeDo />            
             <div className="service w-full bg-gradient-to-r from-[#EDF5FF] to-[#CCDFF7] my-10">
                 <Service />
             </div>

@@ -10,8 +10,8 @@ export function GoldenCircle() {
                 <h1 className="text-4xl font-medium">Círculo Dourado</h1>
                 <p className="w-[100px] border-b-2 border-red-500"></p>
             </div>
-            <div className="flex flex-row gap-5 justify-around text-justify pb-20">
-                <div className="flex flex-col gap-3 w-[40%]">
+            <div className="flex flex-row flex-wrap gap-5 justify-around text-justify pb-20">
+                <div className="flex flex-col gap-3 w-[40%] max-lg:w-full">
                     <h1 className="text-2xl font-bold">Missão!!</h1>
                     <p className="text-sm text-gray-600">Por meio de uma sólida base de experiência e profundo conhecimento técnico, almejamos ser agentes de transformação para aprimorar significativamente a performance e os resultados alcançados pelos nossos clientes. Acreditamos que a combinação entre a expertise acumulada ao longo dos anos e a compreensão aprofundada das intricadas nuances de cada desafio nos capacita a oferecer soluções personalizadas e inovadoras.</p>
 
@@ -24,9 +24,9 @@ export function GoldenCircle() {
                     <p className="text-sm text-gray-600">A integração harmoniosa desses princípios - satisfação do cliente, honestidade e integridade, compromisso e trabalho em equipe - não apenas molda nossa cultura organizacional, mas também define a qualidade de nossas relações com clientes, colaboradores e parceiros. </p>
                 </div>
 
-                <div className="w-[30%] flex flex-col flex-wrap gap-5 items-center">
+                <div className="w-[30%] flex flex-col flex-wrap gap-5 items-center max-lg:w-[70%] max-lg:mt-5">
                     <img src={Image} alt="Why, How, What" className="w-[80%]" />
-                    <p className="text-xl font-medium">Círculo Dourado de Simon Sinek</p>
+                    <p className="text-xl font-medium text-center">Círculo Dourado de Simon Sinek</p>
                 </div>
             </div>
         </Container>

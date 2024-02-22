@@ -1,30 +1,20 @@
 import Container from "../../share/container";
 import { services } from "../../../utils/services";
-
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
-
 import { WeDoCards } from "./Cards"
 
 export function WhatWeDo() {
-
-    
-
     return (
         <Container>
             <div className="">
-                
+
                 <div className="w-full flex flex-col items-center justify-center pt-20 pb-20 text-xl gap-2" data-aos="fade-up" data-aos-duration="1000">
                     <h2 className="text-red-600 text-center">O QUE FAZEMOS</h2>
                     <h1 className="text-4xl font-medium text-center">As Nossas Soluções</h1>
                     <p className="w-[100px] border-b-2 border-red-600"></p>
                 </div>
 
-
                 <div className="w-full flex flex-row flex-wrap gap-10 justify-between items-center pb-20" >
-                    
+
                     <div className="max-w-[500px] flex flex-col " data-aos="fade-up" data-aos-delay="500">
                         <h2 className="section-titles text-2xl font-bold text-red-600">A NOSSA ESPECIALIDADE</h2>
                         <h1 className="section-description text-5xl font-medium">Desenvolvemos e implementamos soluções para os problemas de líderes e organizações de vários setores de atividade.</h1>
@@ -62,14 +52,15 @@ export function WhatWeDo() {
                     </div>
 
                 </div>
- 
-                <div className="we-do-cards pt-10 pb-10 flex flex-row  justify-between overflow-x-auto overflow-hidden">
+
+                <div className=" we-do-cards pt-10 pb-10 flex flex-row justify-between overflow-x-auto overflow-hidden">
                     {services.map((service) => (
                         <>
                             <WeDoCards url={service.url} title={service.title} description={service.description} image={service.image} />
                         </>
                     ))}
                 </div>
+
             </div>
         </Container>
     )
