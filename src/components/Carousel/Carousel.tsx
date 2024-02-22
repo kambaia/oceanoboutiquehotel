@@ -71,7 +71,7 @@ export default function Carousel({
 
             <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
                 <Container>
-                    <div className="carousel-details py-[8%] w-[50%]">
+                    <div className="carousel-details py-[15%] w-[50%]">
                         <div className="flex items-center gap-8 text-3xl text-white">
                             <a href="https://www.youtube.com/watch?v=Z_TepAU9mJk" className="play-btn mb-3 text-1xl"></a>
                             <span className="text-[18px]">VER VÍDEO</span>
