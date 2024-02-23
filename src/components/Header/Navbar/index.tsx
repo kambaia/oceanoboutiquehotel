@@ -45,7 +45,7 @@ export function Navbar() {
                     </nav>
 
                     <div className={`support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center ${sticky?'border-l border-black ': ` ` }`}>
-                      <Link to={'wa.me/244931251965'} >  <FaWhatsapp className="text-3xl text-[#FF0000]" /></Link>
+                      <Link to={'https://wa.me/244931251965'} >  <FaWhatsapp className="text-3xl text-[#FF0000]" /></Link>
                         <div className="flex flex-col">
                             <p className={sticky ? `text-sm text-black` : `text-sm text-white`}>Tem Alguma Questão?</p>
                             <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}>(+244) 931 251 965</p>
