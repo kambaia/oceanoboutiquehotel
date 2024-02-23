@@ -33,13 +33,13 @@ export function Navbar() {
             <Container>
                 <div className="w-full flex flex-row items-center justify-between p-0">
                     <div>
-                        <div className="w-52"><Link to={'/'}><img src={sticky ? Logo1 : Logo} /></Link></div>
+                        <div className="w-52 "><Link to={'/'}><img src={sticky ? Logo1 : Logo} /></Link></div>
                     </div>
                     <nav className="flex items-center gap-10 justify-center" ref={navRef}>
                         <div className="nav-buttons">
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': ' text-white'}` } to="/">HOME</Link>
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-white'}`} to="/sobre-nos">SOBRE</Link>
-                            <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': 'text-white'}`} to="/contacto">CONTACTOS</Link>
+                            <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-white'}`} to="/contacto">CONTACTOS</Link>
                         </div>
                         <button className="nav-btn nav-close-btn" onClick={showNavBar}> <FaTimes /> </button>
                     </nav>
