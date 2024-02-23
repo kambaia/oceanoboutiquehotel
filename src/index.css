@@ -2,6 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -217,7 +219,7 @@ nav a {
 
 
 
-
+ 
 
     header .nav-btn {
         visibility: visible;
@@ -238,7 +240,7 @@ nav a {
         background-color: #2D4078;
         color: #fff;
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateX(-100vh);
     }
     header nav .nav-buttons {
         display: flex;
@@ -266,29 +268,11 @@ nav a {
         border: 3px solid #fff;
         border-radius: 100%;
     }
-
     .identity-image .golden-circle {
         display: none;
         visibility: 0;
         opacity: 0;
     }
-
-
-}
-
-@keyframes cortina {
-    0% {
-        background-size: 100% 0;
-    }
-    100% {
-        background-size: 100% 100%;
-    }
-}
-
-.card :hover {
-    background: linear-gradient(to bottom, #3498db, #2c3e50);
-    /* Cores do gradiente */
-    animation: cortina 1s ease-in-out
 }
 
 .solution-card1,
@@ -347,9 +331,3 @@ nav a {
     box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);
 
 }
-
-/* .service {
-    background-image: url(assets/lines.png);
-    background-position: right;
-    background-repeat: no-repeat;
-} */
