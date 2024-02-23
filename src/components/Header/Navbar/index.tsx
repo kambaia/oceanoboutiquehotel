@@ -41,7 +41,7 @@ export function Navbar() {
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-white'}`} to="/sobre-nos">SOBRE</Link>
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-white'}`} to="/contacto">CONTACTOS</Link>
                         </div>
-                        <button className="nav-btn nav-close-btn" onClick={showNavBar}> <FaTimes /> </button>
+                        <button className={sticky ? `nav-btn nav-close-btn text-black`: `nav-btn nav-close-btn text-white`} onClick={showNavBar}> <FaTimes /> </button>
                     </nav>
 
                     <div className={`support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center ${sticky?'border-l border-black ': ` ` }`}>

@@ -14,16 +14,16 @@ export function Certification() {
                     <p className="w-[100px] border-b-2   border-red-500"></p>
                 </div>
                 <div className='w-full flex flex-row gap-5 justify-center'>
-                    <div className='w-[120px]' data-aos="fade-left" data-aos-delay="100">
+                    <div className='w-[120px]' data-aos="fade-down" data-aos-delay="100">
                         <img className='w-full' src={Certification1} alt="Certication" />
                     </div>
-                    <div className='w-[500px]' data-aos="fade-left" data-aos-delay="200">
+                    <div className='w-[500px]' data-aos="fade-down" data-aos-delay="200">
                         <img className='w-full' src={Certification2} alt="Certication" />
                     </div>
-                    <div className='w-[310px] mt-8' data-aos="fade-left" data-aos-delay="300">
+                    <div className='w-[310px] mt-8' data-aos="fade-down" data-aos-delay="300">
                         <img className='w-full' src={Certification3} alt="Certication" />
                     </div>
-                    <div className='w-[350px] mt-8' data-aos="fade-left" data-aos-delay="400">
+                    <div className='w-[350px] mt-8' data-aos="fade-down" data-aos-delay="400">
                         <img className='w-full' src={Certification4} alt="Certication" />
                     </div>
                 </div>
