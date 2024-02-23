@@ -22,7 +22,6 @@ export default function SingleService() {
             <Container>
                 <div className="flex flex-row flex-wrap justify-around gap-0 py-20 max-lg:py-0 max-lg:pb-10">
 
-
                     <div className="flex flex-col justify-center gap-4 max-w-2xl py-20 m-0 p-0">
                         <div className="w-full flex items-end justify-end">
                             <div className="w-20 h-20 bg-red-500 "></div>
@@ -41,7 +40,6 @@ export default function SingleService() {
                         ))}
                     </div>
 
-
                     <div className="m-0 p-0 max-lg:w-full">
                         {conteudo?.map((image) => (
                             <>
@@ -52,7 +50,6 @@ export default function SingleService() {
                             </>
                         ))}
                     </div>
-
 
                 </div>
             </Container>

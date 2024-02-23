@@ -7,7 +7,7 @@ import partner4 from '../../../assets/Partners/partner4.png'
 export function Partners() {
     return (
         <Container>
-            <div className='py-10'>
+            <div className='py-10 '>
                 <div data-aos="fade-down" data-aos-duration="600" className="w-full flex flex-col text-center items-center justify-center pb-10 text-xl gap-2">
                     <h2 className="text-red-600">PARCEIROS</h2>
                     <h1 className="text-4xl font-medium">Alguns dos nossos parceiros</h1>

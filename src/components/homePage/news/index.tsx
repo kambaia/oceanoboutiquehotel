@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export function Notices() {
     return (
         <Container>
-            <div className="py-20">
+            <div className="py-20 ">
                 <div data-aos="fade-down" data-aos-duration="600" className="w-full flex flex-col text-center items-center justify-center pb-20 text-xl gap-2">
                     <h2 className="text-red-600">NOTÍCIAS E DESTAQUES</h2>
                     <h1 className="text-4xl font-medium">Leia aqui as mais recentes novidades</h1>
