@@ -219,7 +219,7 @@ nav a {
 
 
 
-
+ 
 
     header .nav-btn {
         visibility: visible;
@@ -240,7 +240,7 @@ nav a {
         background-color: #2D4078;
         color: #fff;
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateX(-100vh);
     }
     header nav .nav-buttons {
         display: flex;
