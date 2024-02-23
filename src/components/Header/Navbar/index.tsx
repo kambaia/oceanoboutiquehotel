@@ -5,14 +5,11 @@ import Logo from '../../../assets/logo.svg';
 import Logo1 from '../../../assets/logo1.svg';
 import { Link, useLocation } from "react-router-dom";
 
-
 export function Navbar() {
     const navRef = useRef<any>()
-
     const showNavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
     }
-
     const location = useLocation();
 
     // Sticky Navbar
@@ -27,7 +24,6 @@ export function Navbar() {
     useEffect(() => {
         window.addEventListener("scroll", handleStickyNavbar);
     });
-
     return (
         <header className={`top-0 w-full z-50 flex flex-row items-center justify-between h-[90px] p-0  ${sticky ? 'fixed top-[-2px] bg-white shadow-lg' : `absolute `}`}>
             <Container>
@@ -43,7 +39,6 @@ export function Navbar() {
                         </div>
                         <button className={sticky ? `nav-btn nav-close-btn text-black`: `nav-btn nav-close-btn text-white`} onClick={showNavBar}> <FaTimes /> </button>
                     </nav>
-
                     <div className={`support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center ${sticky?'border-l border-black ': ` ` }`}>
                       <Link to={'https://wa.me/244931251965'} >  <FaWhatsapp className="text-3xl text-[#FF0000]" /></Link>
                         <div className="flex flex-col">
