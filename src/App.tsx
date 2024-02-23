@@ -5,7 +5,9 @@ import SingleService from './pages/Single-Service'
 import { Route, Routes } from 'react-router-dom'
 import './index.css'
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function App() {
   return (

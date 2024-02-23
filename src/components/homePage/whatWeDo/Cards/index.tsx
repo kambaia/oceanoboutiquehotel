@@ -11,7 +11,7 @@ type CardProps = {
 export function WeDoCards({ title, description, image, url }: CardProps) {
     return (
         <Container>
-            <div className="we-do-card grid items-center justify-center rounded-md" data-aos="fade-left">
+            <div className="we-do-card grid items-center justify-center rounded-md" data-aos="fade-down">
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 rounded-md">
                     <div className="rounded-md w-[288px] left-0 right-0 bg-blue-500 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                         <div className="h-[400px] w-72 rounded-md">
