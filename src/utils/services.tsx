@@ -30,7 +30,7 @@ export const services = [
         title: "Planos de Marketing e Estudos de Mercado",
         description: "Por forma a garantir que atingirá o seu público-alvo da forma mais rentável e eficiente, é essencial o investimento num forte e estruturado plano de comunicação e de marketing...",
         image: ServiceImage2,
-        url: "Planos-Marketing",
+        url: "planos-marketing",
         content: [
             {
                 title: "Análise de Mercado Detalhada",
@@ -45,7 +45,7 @@ export const services = [
         title: "Aconselhamento técnico na agricultura",
         description: "Para garantir que o produtor agricola tenha sucesso e alta produtividade prestamos apoio técnico agricola na produção de leguminosas, frutas e hortaliças.",
         image: ServiceImage3,
-        url: "Aconselhamento-técnico",
+        url: "aconselhamento-tecnico",
         content: [
             {
                 title: "Avaliação e Diagnóstico Agronômico",
@@ -60,7 +60,7 @@ export const services = [
         title: "Business Oportunities in Angola",
         description: "Para investidores extrangeiros com pretensão de fazer negócios em Angola , oferecemos um serviço especializado com produção de informações sobre o sector de interesse...",
         image: ServiceImage4,
-        url: "Business-Oportunities",
+        url: "business-oportunities",
         content: [
             {
                 title: "Teaser  and  Due Diligence",
@@ -75,7 +75,7 @@ export const services = [
         title: "Avaliação de empresas e negócios",
         description: "A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica.",
         image: ServiceImage5,
-        url: "Avaliação-empresas",
+        url: "avaliacao-empresas",
         content: [
             {
                 title: "Análise Financeira Detalhada",
