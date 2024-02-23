@@ -19,10 +19,10 @@ export function Footer() {
                     <div className="flex flex-col max-lg:mt-20">
                         <p className="text-white font-bold text-xl">Menu</p>
                         <ul className="flex flex-col gap-2 text-gray-300 mt-6 ml-4">
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Home</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Soluções</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Sobre</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Contactos</Link></li>
+                            <li><Link to={`/`}>Home</Link></li>
+                            <li><Link to={`/`}>Soluções</Link></li>
+                            <li><Link to={`/`}>Sobre</Link></li>
+                            <li><Link to={`/`}>Contactos</Link></li>
                         </ul>
                     </div>
 
@@ -30,10 +30,10 @@ export function Footer() {
                     <div className="flex flex-col max-lg:mt-10">
                         <p className="text-white font-bold text-xl">Soluções</p>
                         <ul className="flex flex-col gap-2 text-gray-300 mt-6 ml-4">
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Consultoria e Controlo de Gestão</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Corporate Finance</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Cultura e Liderança</Link></li>
-                            <li className="hover:text-white hover:pl-2 duration-300"><Link to={`/`}>Apoios e Incentivos Financeiros e Fiscais</Link></li>
+                            <li><Link to={`/`}>Consultoria e Controlo de Gestão</Link></li>
+                            <li><Link to={`/`}>Corporate Finance</Link></li>
+                            <li><Link to={`/`}>Cultura e Liderança</Link></li>
+                            <li><Link to={`/`}>Apoios e Incentivos Financeiros e Fiscais</Link></li>
                         </ul>
                     </div>
 
@@ -75,9 +75,9 @@ export function Footer() {
                     <div className="flex flex-row flex-wrap gap-5 items-center justify-between">
                         <p>B.ALFA - Investimentos & Consultória, LDA ® | Todos os direitos reservados</p>
                         <div className="flex flex-row flex-wrap items-center justify-center gap-5">
-                            <p className="hover:text-white hover:pb-2 duration-300"><Link to={`/`}>Home</Link></p>
-                            <p className="hover:text-white hover:pb-2 duration-300"><Link to={`/sobre-nos`}>Sobre Nós</Link></p>
-                            <p className="hover:text-white hover:pb-2 duration-300"><Link to={`/contacto`}>Contactos</Link></p>
+                            <p><Link to={`/`}>Home</Link></p>
+                            <p><Link to={`/sobre-nos`}>Sobre Nós</Link></p>
+                            <p><Link to={`/contacto`}>Contactos</Link></p>
                         </div>
                     </div>
                 </Container>
