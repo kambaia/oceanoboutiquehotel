@@ -4,7 +4,7 @@ import { GoDotFill } from "react-icons/go";
 export function Service() {
     return (
         <Container>
-            <div className="w-full py-16 flex flex-col justify-center items-center gap-2">
+            <div className="w-full py-16 flex flex-col justify-center items-center gap-2 ">
                 <div className="section-titles flex flex-row gap-3 items-center">
                     <GoDotFill className="text-2xl text-red-600" />
                     <h1 className="text-4xl font-bold section-titles">ATENDIMENTO </h1>
