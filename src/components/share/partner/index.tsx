@@ -1,6 +1,6 @@
-import client1 from '../../../assets/Testemonials/client1.png'
+/* import client1 from '../../../assets/Testemonials/client1.png'
 import client2 from '../../../assets/Testemonials/client2.png'
-import client3 from '../../../assets/Testemonials/client3.png'
+import client3 from '../../../assets/Testemonials/logo-parceiro.jpeg' */
 
 export function Partner() {
     return(
@@ -10,9 +10,9 @@ export function Partner() {
                 <p className='text-white text-lg'>Na B.ALFA, unimos consultoria estratégica, liderança visionária e soluções de financiamento inovadoras para impulsionar o sucesso de nossos clientes hoje e liderar os negócios do amanhã</p>
             </div>
             <div className='parter-description flex flex-row flex-wrap gap-5 w-[40%] justify-end items-center'>
-                <img data-aos="fade-in" data-aos-delay="200" src={client1} alt="Cliente 1" />
+                {/* <img data-aos="fade-in" data-aos-delay="200" src={client1} alt="Cliente 1" />
                 <img data-aos="fade-in" data-aos-delay="500" src={client2} alt="Cliente 2" />
-                <img data-aos="fade-in" data-aos-delay="700" src={client3} alt="Cliente 3" />
+                <img data-aos="fade-in" data-aos-delay="700" src={client3} alt="Cliente 3" /> */}
             </div>
         </div>
     )

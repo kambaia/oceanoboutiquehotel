@@ -53,7 +53,7 @@ export function Footer() {
                             <MdEmail className="text-2xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>EMAIL:</p>
-                                <p>geral@Boalfa.ao</p>
+                                <p>geral@boalfa.ao</p>
                             </div>
                         </div>
 
@@ -74,7 +74,7 @@ export function Footer() {
             <div className="w-full flex-row flex-wrap py-5 bg-[#222527] px-20 text-white mt-5 flex items-center justify-center max-lg:mt-10">
                 <Container>
                     <div className="flex flex-row flex-wrap gap-5 items-center justify-between">
-                        <p>B.ALFA - Investimentos & Consultória, LDA ® | Todos os direitos reservados</p>
+                        <p>B.ALFA - Consultória & Investimentos, LDA ® | Todos os direitos reservados</p>
                         <div className="flex flex-row flex-wrap items-center justify-center gap-5">
                             <p><Link to={`/`}>Home</Link></p>
                             <p><Link to={`/sobre-nos`}>Sobre Nós</Link></p>

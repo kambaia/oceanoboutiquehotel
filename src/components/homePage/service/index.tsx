@@ -42,8 +42,7 @@ export function Service() {
 
                 </div>
                 <div className="service-description flex flex-col gap-8 w-[600px] mt-10">
-                    <p className="text-lg w-[750px] text-center service-description">Somos um dos melhores escritórios de Consultoria e Assessoria Financeira.</p>
-                    <h1 className="text-2xl w-[750px] text-center font-bold text-red-600 service-description">O SEU RESULTADO É A NOSSA MISSÃO! 100% DOS NOSSOS PROJETOS SÃO APROVADOS.</h1>
+                    <h1 className="text-2xl w-[750px] text-center font-bold text-red-600 service-description">NOSSO DOM É SERVIR PARA O SEU RESULTADO.</h1>
                 </div>
             </div>
         </Container>
