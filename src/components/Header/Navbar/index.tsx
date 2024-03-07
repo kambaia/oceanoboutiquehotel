@@ -40,10 +40,10 @@ export function Navbar() {
                         <button className={sticky ? `nav-btn nav-close-btn text-black`: `nav-btn nav-close-btn text-white`} onClick={showNavBar}> <FaTimes /> </button>
                     </nav>
                     <div className={`support-contact h-[90px] flex flex-row gap-3 pl-4 justify-end items-center ${sticky?'border-l border-black ': ` ` }`}>
-                      <Link to={'https://wa.me/244931251965'} >  <FaWhatsapp className="text-3xl text-[#FF0000]" /></Link>
+                      <Link to={'https://wa.me/244997533711'} target="_blank" >  <FaWhatsapp className="text-3xl text-[#FF0000]" /></Link>
                         <div className="flex flex-col">
                             <p className={sticky ? `text-sm text-black` : `text-sm text-white`}>Tem Alguma Questão?</p>
-                            <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}>(+244) 931 251 965</p>
+                            <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}>(+244) 997 533 711</p>
                         </div>
                     </div>
                     <button className="nav-btn" onClick={showNavBar}> <FaBars /> </button>
