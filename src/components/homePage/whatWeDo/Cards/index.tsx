@@ -5,8 +5,6 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 
 import { FreeMode, Pagination } from "swiper/modules";
-
-import { RxArrowTopRight } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import { services } from "../../../../utils/services";
 

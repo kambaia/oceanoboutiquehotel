@@ -1,5 +1,4 @@
 import Container from "../../share/container";
-import { services } from "../../../utils/services";
 import { WeDoCards } from "./Cards"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

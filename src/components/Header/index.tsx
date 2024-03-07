@@ -1,7 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMailOpen } from "react-icons/io";
 import { MdAccessTimeFilled } from "react-icons/md";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Container from "../share/container";
 import { Link } from "react-router-dom";
 
