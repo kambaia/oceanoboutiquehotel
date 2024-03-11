@@ -1,5 +1,5 @@
 import Container from "../share/container"
-import Logo from '../../assets/logo-footer.svg'
+import Logo from '../../assets/SVG/Ativo 24.svg'
 import { Link } from "react-router-dom"
 
 import { FaLocationDot } from "react-icons/fa6";
@@ -45,7 +45,7 @@ export function Footer() {
                             <FaLocationDot className="text-3xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>MORADA:</p>
-                                <p>Projecto Nova Vida, Casa 590, Luanda, Angola</p>
+                                <p>Projecto Nova Vida, Rua 11, Luanda, Angola</p>
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ export function Footer() {
                             <MdEmail className="text-2xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>EMAIL:</p>
-                                <p>geral@boalfa.ao</p>
+                                <p>geral@balfaa.ao</p>
                             </div>
                         </div>
 
@@ -78,6 +78,7 @@ export function Footer() {
                         <div className="flex flex-row flex-wrap items-center justify-center gap-5">
                             <p><Link to={`/`}>Home</Link></p>
                             <p><Link to={`/sobre-nos`}>Sobre Nós</Link></p>
+                            <p><Link to={`/agro`}>Agro</Link></p>
                             <p><Link to={`/contacto`}>Contactos</Link></p>
                         </div>
                     </div>

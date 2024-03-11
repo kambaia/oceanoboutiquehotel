@@ -2,13 +2,17 @@ import ServiceImage1 from '../assets/Solutions/Card/solution1.jpg'
 import ServiceImage2 from '../assets/Solutions/Card/solution2.jpg'
 import ServiceImage3 from '../assets/Solutions/Card/solution3.jpg'
 import ServiceImage4 from '../assets/Solutions/Card/solution4.jpg'
-import ServiceImage5 from '../assets/Solutions/Card/solution7.avif'
+import ServiceImage5 from '../assets/Solutions/Card/solution5.webp'
+import ServiceImage6 from '../assets/Solutions/Card/solution6.jpg'
+import ServiceImage7 from '../assets/Solutions/Card/solution7.avif'
 
 import BackgroundService1 from '../assets/services/background-service1.jpeg'
 import BackgroundService2 from '../assets/services/background-service2.jpeg'
 import BackgroundService3 from '../assets/services/background-service3.jpeg'
 import BackgroundService4 from '../assets/services/background-service4.jpeg'
 import BackgroundService5 from '../assets/services/background-service5.png'
+
+import BackgroundService7 from '../assets/services/background-service7.jpg'
 
 export const services = [
     {
@@ -74,7 +78,7 @@ export const services = [
     {
         title: "Avaliação de empresas e negócios",
         description: "A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica.",
-        image: ServiceImage5,
+        image: ServiceImage7,
         url: "avaliacao-empresas",
         content: [
             {
@@ -83,6 +87,36 @@ export const services = [
                 sectionB: "É fundamental conhecer o valor real da sua empresa ou negócio para as decisões estratégicas. A este nível, com o crescente aumento de M&A (Fusões e Aquisições), são várias as oportunidades para empresas e negócios poderem expandir por esta via ou através de investidores externos.",
                 sectionC: "Um mito comum entre muitas empresas é que só devem conhecer a avaliação da sua empresa quando procuram vendê-la. E é aqui que as empresas acabam por obter menos do que aquilo que desejam em termos de resultados.",
                 image: BackgroundService5,
+            }
+        ]
+    },
+    {
+        title: "Criações Gráficas Digitais",
+        description: "Na Criações Gráficas Expressivas, mergulhamos no mundo da arte visual e da comunicação eficaz para oferecer soluções gráficas excepcionais que cativam e inspiram.",
+        image: ServiceImage5,
+        url: "graficas-digitais",
+        content: [
+            {
+                title: "Criações Gráficas Digitais",
+                section: "",
+                sectionB: "",
+                sectionC: "",
+                image: BackgroundService5,
+            }
+        ]
+    },
+    {
+        title: "Marketing Digital",
+        description: "Na Visão Global Digital, oferecemos soluções de marketing digital sob medida para impulsionar a presença online e o sucesso de nossos clientes.",
+        image: ServiceImage6,
+        url: "marketing-digital",
+        content: [
+            {
+                title: "Marketing Digital",
+                section: "",
+                sectionB: "",
+                sectionC: "",
+                image: BackgroundService7,
             }
         ]
     },

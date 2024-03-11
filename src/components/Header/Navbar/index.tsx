@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react"
 import { FaBars, FaTimes, FaWhatsapp } from "react-icons/fa"
 import Container from "../../share/container"
-import Logo from '../../../assets/logo.svg';
-import Logo1 from '../../../assets/logo1.svg';
+import Logo from '../../../assets/SVG/Ativo 25.svg';
+import Logo1 from '../../../assets/SVG/Ativo 22.svg';
 import { Link, useLocation } from "react-router-dom";
 
 export function Navbar() {
@@ -35,6 +35,7 @@ export function Navbar() {
                         <div className="nav-buttons">
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/' ? 'text-[#FF0000]': ' text-white'}` } to="/">HOME</Link>
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/sobre-nos' ? 'text-[#FF0000]': 'text-white'}`} to="/sobre-nos">SOBRE</Link>
+                            <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/agro' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/agro' ? 'text-[#FF0000]': 'text-white'}`} to="/agro">AGRO</Link>
                             <Link className={sticky ? `m-0 decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-black'}` : `m-0 text-white decoration-0 text-base ${location.pathname === '/contacto' ? 'text-[#FF0000]': 'text-white'}`} to="/contacto">CONTACTOS</Link>
                         </div>
                         <button className={sticky ? `nav-btn nav-close-btn text-black`: `nav-btn nav-close-btn text-white`} onClick={showNavBar}> <FaTimes /> </button>

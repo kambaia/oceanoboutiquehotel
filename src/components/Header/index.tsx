@@ -14,12 +14,12 @@ export default function Header() {
                     <div className="flex flex-row gap-5">
                         <div className="flex flex-row gap-2 justify-between items-center ">
                             <FaLocationDot />
-                            <p>Projecto Nova Vida, Casa 590, Luanda, Angola</p>
+                            <p>Projecto Nova Vida, Rua 11, Luanda, Angola</p>
                         </div>
 
                         <div className="flex flex-row gap-2 justify-start items-center  pl-5 border-l">
                             <IoMdMailOpen />
-                            <p>geral@boalfa.ao</p>
+                            <p>geral@balfaa.ao</p>
                         </div>
                     </div>
 

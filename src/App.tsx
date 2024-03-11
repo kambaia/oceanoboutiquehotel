@@ -1,5 +1,6 @@
 import HomePage from './pages/Home'
 import AboutPage from './pages/About'
+import Agro from './pages/Agro'
 import ContactPage from './pages/Contact'
 import SingleService from './pages/Single-Service'
 import { Route, Routes } from 'react-router-dom'
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route path='/sobre-nos' element={<AboutPage />} />
+      <Route path='/agro' element={<Agro />} />
       <Route path='/contacto' element={<ContactPage />} />
       <Route path='/service/:pageCategory' element={<SingleService />} />
     </Routes>
