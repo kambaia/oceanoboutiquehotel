@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react"
 import { FaBars, FaTimes, FaWhatsapp } from "react-icons/fa"
 import Container from "../../share/container"
 import Logo from '../../../assets/SVG/Ativo 25.svg';
-import Logo1 from '../../../assets/SVG/Ativo 22.svg';
+import Logo1 from '../../../assets/SVG/Ativo 26.svg';
 import { Link, useLocation } from "react-router-dom";
 
 export function Navbar() {
