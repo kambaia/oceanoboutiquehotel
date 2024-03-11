@@ -17,7 +17,7 @@ export function WeDoCards() {
     isFirst: true,
     isLast: false,
   });
-  const SlideRef = useRef();
+  const SlideRef = useRef<any | null>(null);
 
   const handleNext = () => {
     SlideRef.current.swiper.slideNext();
