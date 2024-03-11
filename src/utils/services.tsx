@@ -45,6 +45,37 @@ export const services = [
             }
         ]
     },
+    
+    {
+        title: "Criações Gráficas Digitais",
+        description: "Na Criações Gráficas Expressivas, mergulhamos no mundo da arte visual e da comunicação eficaz para oferecer soluções gráficas excepcionais que cativam e inspiram.",
+        image: ServiceImage5,
+        url: "graficas-digitais",
+        content: [
+            {
+                title: "Criações Gráficas Digitais",
+                section: "",
+                sectionB: "",
+                sectionC: "",
+                image: BackgroundService5,
+            }
+        ]
+    },
+    {
+        title: "Marketing Digital",
+        description: "Na Visão Global Digital, oferecemos soluções de marketing digital sob medida para impulsionar a presença online e o sucesso de nossos clientes.",
+        image: ServiceImage6,
+        url: "marketing-digital",
+        content: [
+            {
+                title: "Marketing Digital",
+                section: "",
+                sectionB: "",
+                sectionC: "",
+                image: BackgroundService7,
+            }
+        ]
+    },
     {
         title: "Aconselhamento técnico na agricultura",
         description: "Para garantir que o produtor agricola tenha sucesso e alta produtividade prestamos apoio técnico agricola na produção de leguminosas, frutas e hortaliças.",
@@ -87,36 +118,6 @@ export const services = [
                 sectionB: "É fundamental conhecer o valor real da sua empresa ou negócio para as decisões estratégicas. A este nível, com o crescente aumento de M&A (Fusões e Aquisições), são várias as oportunidades para empresas e negócios poderem expandir por esta via ou através de investidores externos.",
                 sectionC: "Um mito comum entre muitas empresas é que só devem conhecer a avaliação da sua empresa quando procuram vendê-la. E é aqui que as empresas acabam por obter menos do que aquilo que desejam em termos de resultados.",
                 image: BackgroundService5,
-            }
-        ]
-    },
-    {
-        title: "Criações Gráficas Digitais",
-        description: "Na Criações Gráficas Expressivas, mergulhamos no mundo da arte visual e da comunicação eficaz para oferecer soluções gráficas excepcionais que cativam e inspiram.",
-        image: ServiceImage5,
-        url: "graficas-digitais",
-        content: [
-            {
-                title: "Criações Gráficas Digitais",
-                section: "",
-                sectionB: "",
-                sectionC: "",
-                image: BackgroundService5,
-            }
-        ]
-    },
-    {
-        title: "Marketing Digital",
-        description: "Na Visão Global Digital, oferecemos soluções de marketing digital sob medida para impulsionar a presença online e o sucesso de nossos clientes.",
-        image: ServiceImage6,
-        url: "marketing-digital",
-        content: [
-            {
-                title: "Marketing Digital",
-                section: "",
-                sectionB: "",
-                sectionC: "",
-                image: BackgroundService7,
             }
         ]
     },
