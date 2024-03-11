@@ -1,8 +1,9 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMailOpen } from "react-icons/io";
 import { MdAccessTimeFilled } from "react-icons/md";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Container from "../share/container";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
@@ -13,24 +14,27 @@ export default function Header() {
                     <div className="flex flex-row gap-5">
                         <div className="flex flex-row gap-2 justify-between items-center ">
                             <FaLocationDot />
-                            <p>Via Expressa, Luanda, Angola</p>
+                            <p>Projecto Nova Vida, Casa 590, Luanda, Angola</p>
                         </div>
 
                         <div className="flex flex-row gap-2 justify-start items-center  pl-5 border-l">
                             <IoMdMailOpen />
-                            <p>geral@grupoboavida.co.ao</p>
+                            <p>geral@boalfa.ao</p>
                         </div>
                     </div>
 
                     <div className="flex flex-row gap-6 justify-between items-center ">
                         <div className="flex flex-row gap-1 justify-between items-center">
                             <MdAccessTimeFilled />
-                            <p>Horário: 09:00 – 18:00</p>
+                            <p>Horário: 09:00 – 17:00</p>
                         </div>
                         <div className="flex flex-row gap-3 justify-between items-center text-lg pl-5 border-l">
+                            <Link to={'https://www.facebook.com/people/B-Alfa/61556553600172/'} target="_blank">
                             <FaFacebookF />
+                            </Link>
+                            <Link to={'https://www.instagram.com/balfa_invest_e_consultoria_/'} target="_blank">
                             <FaInstagram />
-                            <FaLinkedinIn />
+                            </Link>
                         </div>
                     </div>
 

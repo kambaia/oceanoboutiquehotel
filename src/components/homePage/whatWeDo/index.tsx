@@ -1,8 +1,9 @@
 import Container from "../../share/container";
-import { services } from "../../../utils/services";
 import { WeDoCards } from "./Cards"
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 export function WhatWeDo() {
+   
     return (
         <Container>
             <div className="">
@@ -53,14 +54,11 @@ export function WhatWeDo() {
 
                 </div>
 
-                <div className=" we-do-cards pt-10 pb-10 flex flex-row justify-between overflow-x-auto overflow-hidden">
-                    {services.map((service) => (
-                        <>
-                            <WeDoCards url={service.url} title={service.title} description={service.description} image={service.image} />
-                        </>
-                    ))}
-                </div>
-
+              
+                       
+                            <WeDoCards />
+                 
+             
             </div>
         </Container>
     )

@@ -72,7 +72,7 @@ export default function Carousel({
                 <Container>
                     <div className="carousel-details py-[15%] w-[50%]">
                         <div className="flex items-center gap-8 text-3xl text-white">
-                            <a href="https://www.youtube.com/watch?v=Z_TepAU9mJk" className="play-btn mb-3 text-1xl"></a>
+                            <a href="https://www.youtube.com/watch?v=a" className="play-btn mb-3 text-1xl"></a>
                             <span className="text-[18px]">VER VÍDEO</span>
                         </div>
                         <h1 style={{ transform: `translateX(-100)` }} ref={tl} className="box text-white">

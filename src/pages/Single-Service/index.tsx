@@ -4,7 +4,8 @@ import { Partner } from "../../components/share/partner";
 import { Navbar } from "../../components/Header/Navbar"
 import { services } from "../../utils/services";
 import { TopBanner } from "../../components/share/topBanner"
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
+import { useEffect } from "react";
 
 
 export default function SingleService() {
@@ -12,6 +13,11 @@ export default function SingleService() {
     const { pageCategory } = useParams() as any;
     const myServices = services.find((item) => item.url === pageCategory)
     const conteudo = myServices?.content
+    const navigate = useNavigate();
+        
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [navigate]);
 
     return (
         <Layout>

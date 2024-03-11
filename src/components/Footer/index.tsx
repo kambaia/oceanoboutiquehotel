@@ -38,14 +38,14 @@ export function Footer() {
                     </div>
 
 
-                    <div className="w-[250px] flex flex-col max-lg:mt-10">
+                    <div className=" flex flex-col max-lg:mt-10">
 
                         <p className="text-white font-bold text-xl">Contactos</p>
                         <div className="flex flex-row gap-4 mt-4 text-gray-300 ">
                             <FaLocationDot className="text-3xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>MORADA:</p>
-                                <p>Via Expressa,Luanda, Angola</p>
+                                <p>Projecto Nova Vida, Casa 590, Luanda, Angola</p>
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ export function Footer() {
                             <MdEmail className="text-2xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>EMAIL:</p>
-                                <p>geral@grupoboavida.co.ao</p>
+                                <p>geral@boalfa.ao</p>
                             </div>
                         </div>
 
@@ -62,6 +62,7 @@ export function Footer() {
                             <div className="flex flex-col gap-1">
                                 <p>TELEFONE:</p>
                                 <p>(+244) 931 251 965</p>
+                                <p>(+244) 997 533 711</p>
                             </div>
                         </div>
 
@@ -73,7 +74,7 @@ export function Footer() {
             <div className="w-full flex-row flex-wrap py-5 bg-[#222527] px-20 text-white mt-5 flex items-center justify-center max-lg:mt-10">
                 <Container>
                     <div className="flex flex-row flex-wrap gap-5 items-center justify-between">
-                        <p>B.ALFA - Investimentos & Consultória, LDA ® | Todos os direitos reservados</p>
+                        <p>B.ALFA - Consultória & Investimentos, LDA ® | Todos os direitos reservados</p>
                         <div className="flex flex-row flex-wrap items-center justify-center gap-5">
                             <p><Link to={`/`}>Home</Link></p>
                             <p><Link to={`/sobre-nos`}>Sobre Nós</Link></p>
