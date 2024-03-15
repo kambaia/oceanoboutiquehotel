@@ -19,7 +19,7 @@ export default function Header() {
 
                         <div className="flex flex-row gap-2 justify-start items-center  pl-5 border-l">
                             <IoMdMailOpen />
-                            <p>geral@balfaa.ao</p>
+                            <p>geral@balfaa.com</p>
                         </div>
                     </div>
 

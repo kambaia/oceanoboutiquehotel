@@ -53,7 +53,7 @@ export function Footer() {
                             <MdEmail className="text-2xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>EMAIL:</p>
-                                <p>geral@balfaa.ao</p>
+                                <p>geral@balfaa.com</p>
                             </div>
                         </div>
 

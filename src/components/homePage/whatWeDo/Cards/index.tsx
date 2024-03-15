@@ -34,10 +34,18 @@ export function WeDoCards() {
       ref={SlideRef}
       breakpoints={{
         340: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 15,
         },
         700: {
+          slidesPerView: 2,
+          spaceBetween: 25,
+        },
+        900: {
+          slidesPerView: 3,
+          spaceBetween: 25,
+        },
+        1200: {
           slidesPerView: 4,
           spaceBetween: 25,
         },
@@ -54,7 +62,7 @@ export function WeDoCards() {
       modules={[FreeMode, Pagination]}
       freeMode={true}
 
-      className="max-w-[100%] lg:max-w-[100%]"
+      className="max-w-[100%] lg:max-w-[100%] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4"
     >
       {services.map((service) => (
 
