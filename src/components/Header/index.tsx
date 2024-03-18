@@ -14,7 +14,7 @@ export default function Header() {
                     <div className="flex flex-row gap-5">
                         <div className="flex flex-row gap-2 justify-between items-center ">
                             <FaLocationDot />
-                            <p>Projecto Nova Vida, Rua 19, Luanda, Angola</p>
+                            <p>Projecto Nova Vida, Rua 29, Luanda, Angola</p>
                         </div>
 
                         <div className="flex flex-row gap-2 justify-start items-center  pl-5 border-l">
@@ -30,10 +30,10 @@ export default function Header() {
                         </div>
                         <div className="flex flex-row gap-3 justify-between items-center text-lg pl-5 border-l">
                             <Link to={'https://www.facebook.com/people/B-Alfa/61556553600172/'} target="_blank">
-                            <FaFacebookF />
+                                <FaFacebookF />
                             </Link>
                             <Link to={'https://www.instagram.com/balfa_invest_e_consultoria_/'} target="_blank">
-                            <FaInstagram />
+                                <FaInstagram />
                             </Link>
                         </div>
                     </div>

@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/free-mode";
 
 import { FreeMode, Pagination } from "swiper/modules";
@@ -49,9 +48,6 @@ export function WeDoCards() {
           slidesPerView: 4,
           spaceBetween: 25,
         },
-      }}
-      pagination={{
-        clickable: true,
       }}
       autoplay={{
         delay: 3000, // tempo de atraso em milissegundos entre os slides

@@ -45,7 +45,7 @@ export function Footer() {
                             <FaLocationDot className="text-3xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>MORADA:</p>
-                                <p>Projecto Nova Vida, Rua 19, Luanda, Angola</p>
+                                <p>Projecto Nova Vida, Rua 29, Luanda, Angola</p>
                             </div>
                         </div>
 

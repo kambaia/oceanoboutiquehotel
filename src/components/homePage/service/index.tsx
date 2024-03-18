@@ -15,15 +15,15 @@ export function Service() {
                 <h1 className="text-2xl text-center font-medium mt-4 text-red-600 section-titles">CONFIRA COMO FUNCIONA O NOSSO ATENDIMENTO:</h1>
                 <div className="section-service flex flex-row justify-between w-full mt-10">
 
-                    <div data-aos="zoom-in" data-aos-delay="100" className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
+                    <div data-aos="zoom-in" data-aos-delay="100" className="service1 w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">1º</h1>
                         <p className="text-white ">Entendemos qual é o seu negócio e a sua linha de atuação;</p>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="300" className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
+                    <div data-aos="zoom-in" data-aos-delay="300" className="service3 w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">3º</h1>
                         <p className="text-white ">Levantamos as melhores opções de financiamento de acordo com o critério de cada banco;</p>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="500" className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
+                    <div data-aos="zoom-in" data-aos-delay="500" className="service5 w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">5º</h1>
                         <p className="text-white ">Realizamos o acompanhamento com uma equipe altamente especializada;</p>
                     </div>
@@ -31,18 +31,18 @@ export function Service() {
                 </div>
                 <div className="section-service flex flex-row justify-center gap-48 w-full mt-10">
 
-                    <div data-aos="zoom-in" data-aos-delay="200" className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
+                    <div data-aos="zoom-in" data-aos-delay="200" className="service2 w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">2º</h1>
                         <p className="text-white ">Compreendemos a sua demanda;</p>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="400" className="w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
+                    <div data-aos="zoom-in" data-aos-delay="400" className="service4 w-[320px] p-7 h-28 bg-red-600 rounded-tr-[50px] rounded-bl-[50px] flex flex-row gap-2 justify-start items-center">
                         <h1 className="text-7xl font-medium text-white opacity-60">4º</h1>
                         <p className="text-white ">Elaboramos o projeto para realizar o financiamento e as operações de crédito;</p>
                     </div>
 
                 </div>
-                <div className="service-description flex flex-col gap-8 w-[600px] mt-10">
-                    <h1 className="text-2xl w-[750px] text-center font-bold text-red-600 service-description">NOSSO DOM É SERVIR PARA O SEU RESULTADO.</h1>
+                <div className="w-full text-center mt-10">
+                    <h1 className="text-2xl w-full text-center font-bold text-red-600 service-description">NOSSO DOM É SERVIR PARA O SEU RESULTADO.</h1>
                 </div>
             </div>
         </Container>

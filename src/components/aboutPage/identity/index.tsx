@@ -21,10 +21,10 @@ export function Identity() {
 
                 <div className='flex flex-col gap-5 w-[520px] text-gray-800 text-base text-justify max-lg:w-full max-lg:mt-5'>
                     <h1 className='font-bold text-4xl' >QUEM SOMOS!</h1>
-                    <p>Para atender a demanda dos nossos emprendedores, a B.Alfa desenvolveu um conjuto de ferramentas e técnicas e competências distintas. No dominíno da formação entregamos aos clientes conhecimentos práticos de gestão, finanças empresariais, markting gestão agraria e práticas de cultivo e fitossanidade.</p>
-                    <p>No dominío da gestão de negócios actuamos prestando um serviço de consultoria voltado à prática trabalhando em conjunto com micro, pequenos e médios empresarios nas suas necessidades para melhorar a performance e os resultados.</p>
-                    <p>Como entregaveis aos clientes temos produtos como planos de negócios, Estudos Financeiros e Análise de Viabilidade, Planos de Marketing e Estudos de Mercado, aconselhamento técnico na agricultura, para investidores extrangeiros criamos o pilar BUSNESS OPPORTUNITAES IN ANGOLA(Teaser and Due Diligence) com fim de apresentar informações estrturadas sobre qualquer áres de interesse do investor.</p>
-                    <p>Alem de área de consultoria actuamos no sector agricola com produções de leguminosas e legumes.</p>
+                    <p>Para atender as necessidades  dos  emprendedores, desenvolvemos  um conjuto de ferramentas técnicas distintas e personalizadas  . No dominíno da formação, entregamos aos clientes conhecimentos práticos de gestão, finanças empresariais, markting gestão agrária e práticas de cultivo e fitossanidade.</p>
+                    <p>No dominío da gestão de negócios actuamos prestando um serviço de consultoria voltado à prática, trabalhando em conjunto com micro, pequenos e médios empresarios nas suas necessidades para melhorar a performance e os resultados.</p>
+                    <p>Como entregaveis aos clientes temos produtos tais  como: planos de negócios, Estudos Financeiros e Análise de Viabilidade, Planos de Marketing e Estudos de Mercado, aconselhamento técnico  agrícola, para investidores estrangeiros criamos o pilar BUSNESS OPPORTUNITAES IN ANGOLA (Teaser and Due Diligence) com a finalidade  de apresentar informações estruturadas sobre qualquer áres de interesse do investor.</p>
+                    <p>Além da área de consultoria actuamos no sector agrícola com produções de leguminosas e legumes.</p>
                 </div>
 
             </div>
