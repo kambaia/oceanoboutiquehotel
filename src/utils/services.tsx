@@ -1,18 +1,38 @@
-import ServiceImage1 from '../assets/Solutions/Card/solution1.jpg'
-import ServiceImage2 from '../assets/Solutions/Card/solution2.jpg'
-import ServiceImage3 from '../assets/Solutions/Card/solution3.jpg'
-import ServiceImage4 from '../assets/Solutions/Card/solution4.jpg'
-import ServiceImage5 from '../assets/Solutions/Card/solution5.webp'
-import ServiceImage6 from '../assets/Solutions/Card/solution6.jpg'
-import ServiceImage7 from '../assets/Solutions/Card/solution7.avif'
+import ServiceImage1 from '../assets/services/ESTUDOS FINANCEIROS E ANÁLISE DE VIABILIDADE.jpg'
+import ServiceImage2 from '../assets/services/PLANOS DE MARKETING E ESTUDOS DE MERCADO_.jpg'
+import ServiceImage3 from '../assets/services/DESIGNER GRAFICO.jpg'
+import ServiceImage4 from '../assets/services/ACONSELHAMENTO TÉCNICO NA AGRICULTURA.jpg'
+import ServiceImage5 from '../assets/services/MARKETING DIGITAL.jpg'
+import ServiceImage6 from '../assets/services/BUSINESS OPPORTUNITIES IN ANGOLA.jpg'
+import ServiceImage7 from '../assets/services/AVALIAÇÃO DE EMPRESAS E NEGÓCIOS.jpg'
 
 import BackgroundService1 from '../assets/services/background-service1.jpeg'
 import BackgroundService2 from '../assets/services/background-service2.jpeg'
 import BackgroundService3 from '../assets/services/background-service3.jpeg'
-import BackgroundService4 from '../assets/services/background-service4.jpeg'
-import BackgroundService5 from '../assets/services/background-service5.png'
-
+import BackgroundService4 from '../assets/services/background-service4.jpg'
+import BackgroundService5 from '../assets/services/background-service7.jpg'
 import BackgroundService7 from '../assets/services/background-service7.jpg'
+
+import { GoDotFill } from "react-icons/go";
+
+export function Marketing(){
+    return(
+        <div className='flex flex-col gap-0 pl-8'>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Logotipos; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Vetorização de imagens; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Banners; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de imagens publicitárias;</p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Assinaturas de emails; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Capas para Redes Sociais; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Convites; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Tags personalizadas; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Tratamento de imagens; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Portfólios; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Revistas; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />E muito mais!</p>
+        </div>
+    )
+}
 
 export const services = [
     {
@@ -49,14 +69,14 @@ export const services = [
     {
         title: "Criações Gráficas Digitais",
         description: "Na Criações Gráficas Expressivas, mergulhamos no mundo da arte visual e da comunicação eficaz para oferecer soluções gráficas excepcionais que cativam e inspiram.",
-        image: ServiceImage5,
+        image: ServiceImage3,
         url: "graficas-digitais",
         content: [
             {
-                title: "Criações Gráficas Digitais",
-                section: "",
-                sectionB: "",
-                sectionC: "",
+                title: "Artes Profissionais para seu Produto ou Negócio!",
+                section: "O que pode ser feito por um Design Gráfico: Nós da B. Alfa oferecemos muitas formas de artes, listaremos algumas, porém se a sua não estiver na lista, nos consulte!",
+                sectionB: <Marketing/>,
+                sectionC: "Tudo isso pode ser feito em alta resolução se você precisar! Oferecemos impressão de vários tipos de materiais, como cartões de visita, flyers, banners, páginas timbradas, portfólios, revistas e mais",
                 image: BackgroundService5,
             }
         ]
@@ -64,14 +84,14 @@ export const services = [
     {
         title: "Marketing Digital",
         description: "Na Visão Global Digital, oferecemos soluções de marketing digital sob medida para impulsionar a presença online e o sucesso de nossos clientes.",
-        image: ServiceImage6,
+        image: ServiceImage5,
         url: "marketing-digital",
         content: [
             {
-                title: "Marketing Digital",
-                section: "",
-                sectionB: "",
-                sectionC: "",
+                title: "Conectando Marcas ao Sucesso Online",
+                section: "Na B.Alfa, entendemos que cada empresa é única. É por isso que oferecemos soluções de marketing digital personalizadas para atender às necessidades específicas de sua empresa. Desde a criação de campanhas de mídia social até a otimização de mecanismos de busca (SEO) e marketing por e-mail, desenvolvemos estratégias sob medida para impulsionar sua presença online e alcançar seus objetivos de negócios.",
+                sectionB: "Nosso foco vai além de simplesmente aumentar o tráfego para o seu site. Na B.Alfa, buscamos engajar seu público-alvo de maneira significativa e converter leads em clientes. Através de análises detalhadas, identificamos oportunidades de melhoria em sua jornada digital, desde a primeira interação até a conversão final.",
+                sectionC: "Sabemos que a transparência e a mensuração são essenciais para o sucesso de qualquer estratégia de marketing digital. Na B.Alfa, fornecemos relatórios detalhados e análises de desempenho para acompanhar o progresso de suas campanhas. Utilizando ferramentas avançadas de análise, monitoramos métricas-chave, como taxas de conversão, retorno sobre o investimento (ROI) e engajamento do usuário.",
                 image: BackgroundService7,
             }
         ]
@@ -79,7 +99,7 @@ export const services = [
     {
         title: "Aconselhamento técnico na agricultura",
         description: "Para garantir que o produtor agricola tenha sucesso e alta produtividade prestamos apoio técnico agricola na produção de leguminosas, frutas e hortaliças.",
-        image: ServiceImage3,
+        image: ServiceImage4,
         url: "aconselhamento-tecnico",
         content: [
             {
@@ -92,13 +112,13 @@ export const services = [
         ]
     },
     {
-        title: "Business Oportunities in Angola",
+        title: "Oportunidades de Negócios em Angola",
         description: "Para investidores extrangeiros com pretensão de fazer negócios em Angola , oferecemos um serviço especializado com produção de informações sobre o sector de interesse...",
-        image: ServiceImage4,
+        image: ServiceImage6,
         url: "business-oportunities",
         content: [
             {
-                title: "Teaser  and  Due Diligence",
+                title: "Teaser and Due Diligence",
                 section: "Para investidores extrangeiros com pretensão de fazer negócios em Angola , oferecemos um serviço especializado com produção de informações sobre o sector de interesse, o tipo de negócio , potenciais parceiros em formatos de  Teaser e due diligence.",
                 sectionB: "Com base em nossa experiência local e conhecimento da indústria, oferecemos serviços de consultoria de investimentos personalizados para orientar investidores no processo de avaliação e aproveitamento de oportunidades de negócios promissoras em Angola, garantindo tomadas de decisão informadas e mitigação de riscos.",
                 sectionC: "Facilitamos parcerias estratégicas e oportunidades de networking conectando investidores a partes interessadas-chave, players da indústria, agências governamentais e empresas locais em Angola, promovendo colaborações que impulsionam o crescimento e a expansão dos negócios. Auxiliamos clientes no desenvolvimento de estratégias eficazes de entrada no mercado adaptadas às características únicas do mercado angolano, incluindo posicionamento de mercado, canais de distribuição, campanhas de marketing e conformidade regulatória, para maximizar suas chances de sucesso.",
