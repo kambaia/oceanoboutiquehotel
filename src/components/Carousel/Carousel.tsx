@@ -76,7 +76,10 @@ export default function Carousel({
                             <span className="text-[18px]">VER VÍDEO</span>
                         </div>
                         <h1 style={{ transform: `translateX(-100)` }} ref={tl} className="box text-white">
-                            <span className="font-bold text-[#FF0000] text-6xl">{string[currS].title}</span> <span className="text-5xl font-light"> {string[currS].p}</span></h1>
+                            <span className="font-bold text-[#FF0000] text-6xl">{string[currS].title}</span> 
+                            <br />
+                            <span className="text-5xl font-light"> {string[currS].p}</span>
+                        </h1>
                     </div>
 
                     <div className="carousel-position flex items-center justify-start z-50 gap-2">
