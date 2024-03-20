@@ -6,13 +6,6 @@ import ServiceImage5 from '../assets/services/MARKETING DIGITAL.jpg'
 import ServiceImage6 from '../assets/services/BUSINESS OPPORTUNITIES IN ANGOLA.jpg'
 import ServiceImage7 from '../assets/services/AVALIAÇÃO DE EMPRESAS E NEGÓCIOS.jpg'
 
-import BackgroundService1 from '../assets/services/background-service1.jpeg'
-import BackgroundService2 from '../assets/services/background-service2.jpeg'
-import BackgroundService3 from '../assets/services/background-service3.jpeg'
-import BackgroundService4 from '../assets/services/background-service4.jpg'
-import BackgroundService5 from '../assets/services/background-service7.jpg'
-import BackgroundService7 from '../assets/services/background-service7.jpg'
-
 import { GoDotFill } from "react-icons/go";
 
 export function Marketing(){

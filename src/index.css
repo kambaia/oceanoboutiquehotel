@@ -303,32 +303,7 @@ nav a {
         opacity: 0;
     }
 }
-
-.solution-card1,
-.solution-card2,
-.solution-card3,
-.solution-card4v {
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);
-}
-
-.solution-card1:hover {
-    background-image: url(assets/Solutions/Card/solution1.jpg);
-}
-
-.solution-card2:hover {
-    background-image: url(assets/Solutions/Card/solution2.jpg);
-}
-
-.solution-card3:hover {
-    background-image: url(assets/Solutions/Card/solution3.jpg);
-}
-
-.solution-card4:hover {
-    background-image: url(assets/Solutions/Card/solution4.jpg);
-}
-
+ 
 .macro {
     background-image: url('./assets/macro.jpg');
     background-position: center;
