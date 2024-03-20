@@ -6,6 +6,7 @@ import { Navbar } from "../../components/Header/Navbar";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
+import { FaWhatsapp } from "react-icons/fa6";
 
 export default function ContactPage() {
     return (
@@ -35,7 +36,7 @@ export default function ContactPage() {
                             </div>
                             <div className="flex flex-row items-center gap-3 mt-4">
                                 <div className="bg-gradient-to-r from-red-500 to-orange-500 p-3 rounded-full w-[50px] h-[50px] flex justify-center items-center text-white text-xl">
-                                    <FaPhone />
+                                    <FaWhatsapp />
                                 </div>
                                 <p>(+244) 997 533 711</p>
                             </div>
