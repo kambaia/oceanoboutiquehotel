@@ -18,20 +18,26 @@ export default function ContactPage() {
             <Container>
                 <div className="w-full py-32 px-20 my-20 bg-red-700 flex flex-row justify-around max-lg:p-5 flex-wrap">
                     <div >
-                        <div className="bg-white w-[450px] h-[450px] relative z-20 flex flex-col gap-4 p-20 max-lg:w-full max-lg:h-auto max-lg:p-5">
+                        <div className="bg-white w-[450px] relative z-20 flex flex-col gap-4 p-20 max-lg:w-full max-lg:h-auto max-lg:p-5">
                             <h1 className="text-3xl font-bold" >Vamos Conversar?</h1>
                             <p className="text-gray-600 text-justify">Entre em contacto connosco e faça-nos chegar as suas questões. Estamos certos que teremos a solução para si.</p>
                             <div className="flex flex-row items-center gap-3 mt-4">
                                 <div className="bg-gradient-to-r from-red-500 to-orange-500 p-3 rounded-full w-[50px] h-[50px] flex justify-center items-center text-white text-xl">
                                     <FaLocationDot />
                                 </div>
-                                <p>Via Expressa, Luanda, Angola</p>
+                                <p>Projeto Nova Vida, Rua 29 , Luanda, Angola</p>
                             </div>
                             <div className="flex flex-row items-center gap-3 mt-4">
                                 <div className="bg-gradient-to-r from-red-500 to-orange-500 p-3 rounded-full w-[50px] h-[50px] flex justify-center items-center text-white text-xl">
                                     <FaPhone />
                                 </div>
                                 <p>(+244) 931 251 965</p>
+                            </div>
+                            <div className="flex flex-row items-center gap-3 mt-4">
+                                <div className="bg-gradient-to-r from-red-500 to-orange-500 p-3 rounded-full w-[50px] h-[50px] flex justify-center items-center text-white text-xl">
+                                    <FaPhone />
+                                </div>
+                                <p>(+244) 997 533 711</p>
                             </div>
                         </div>
 
