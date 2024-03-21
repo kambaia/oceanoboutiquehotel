@@ -21,7 +21,7 @@ export default function HomePage() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title>B.ALFA - Consultória & Investimentos, LDA</title>
                 <meta name="description" content="A B.Alfa Consultoria e Investimentos é um grupo que actua nas áreas, da economia, finanças, agricultura, pescas e pecuária." />
-                <meta name="keywords" content="B.Alfa, Consultoria, investimento, marketing, design" />
+                <meta name="keywords" content="B.Alfa, balfa, balfaa, b-alfa, Consultoria, investimento, marketing, design" />
                 <meta name="robots" content="home, sobre, contacto, agro" />
                 <link rel="canonical" href="https://www.balfaa.com/" />
                 {/* <!-- Tags Open Graph para redes sociais --> */}
