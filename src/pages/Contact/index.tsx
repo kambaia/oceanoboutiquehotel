@@ -50,7 +50,7 @@ export default function ContactPage() {
                                 <div className="bg-gradient-to-r from-red-500 to-orange-500 p-3 rounded-full w-[50px] h-[50px] flex justify-center items-center text-white text-xl">
                                     <FaPhone />
                                 </div>
-                                <p>(+244) 931 251 965</p>
+                                <p>(+244) 927 988 743</p>
                             </div>
                             <div className="flex flex-row items-center gap-3 mt-4">
                                 <div className="bg-gradient-to-r from-red-500 to-orange-500 p-3 rounded-full w-[50px] h-[50px] flex justify-center items-center text-white text-xl">
