@@ -61,7 +61,7 @@ export function Footer() {
                             <FaPhone className="text-2xl text-red-600" />
                             <div className="flex flex-col gap-1">
                                 <p>TELEFONE:</p>
-                                <p>(+244) 931 251 965</p>
+                                <p>(+244) 927 988 743</p>
                                 <p>(+244) 997 533 711</p>
                             </div>
                         </div>
