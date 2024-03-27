@@ -13,7 +13,7 @@ export function Marketing(){
         <div className='flex flex-col gap-0 pl-8'>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Logotipos; </p>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Vetorização de imagens; </p>
-            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Banners; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Produção de Banners; </p>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de imagens publicitárias;</p>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Assinaturas de emails; </p>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Capas para Redes Sociais; </p>
@@ -21,7 +21,7 @@ export function Marketing(){
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Tags personalizadas; </p>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Tratamento de imagens; </p>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Portfólios; </p>
-            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Criação de Revistas; </p>
+            <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />Produção de Revistas; </p>
             <p className='flex flex-row gap-1 text-base items-center'><GoDotFill />E muito mais!</p>
         </div>
     )
@@ -36,9 +36,9 @@ export const services = [
         content: [
             {
                 title: "Gestão Financeira Estratégica",
-                section: "Analisamos o potencial do seu negócio ou ideia, prestando serviços de aconselhamento estratégico que representam uma importante mais valia na alavancagem de um negócio.",
-                sectionB: "Avaliamos a lucratividade e a sustentabilidade de um projeto ou investimento, utilizando métricas como ROI, payback period, TIR e VPL, para determinar sua viabilidade financeira e potencial de retorno.",
-                sectionC: "Analisamos os riscos associados ao projeto, incluindo fatores econômicos, concorrência e regulamentações governamentais, e desenvolvemos estratégias para mitigar esses riscos e garantir o sucesso financeiro do projeto. Com base em nossa análise detalhada, fornecemos recomendações estratégicas claras e acionáveis para orientar as decisões empresariais, maximizando o valor para os stakeholders e impulsionando o crescimento sustentável.",
+                section: "Analisamos o potencial do seu negócio ou ideia e prestamos serviços de consultoria estratégica que proporcionam um valor acrescentado valioso na captação de negócios.  Avaliamos a rentabilidade e sustentabilidade de um projeto ou investimento utilizando indicadores como ROI, período de retorno, TIR e VPL para determinar a sua viabilidade financeira e retornos potenciais.",
+                sectionB: "Analisamos os riscos associados a um projeto, incluindo fatores econômicos, competitivos e regulatórios governamentais, e desenvolvemos estratégias para mitigar esses riscos e garantir o sucesso financeiro do projeto.",
+                sectionC: "Com base em análises aprofundadas, fornecemos recomendações estratégicas claras e práticas para orientar as decisões de negócios, aumentar o valor para as partes interessadas e impulsionar o crescimento sustentável.",
                 image: ServiceImage1,
             }
         ]
@@ -50,10 +50,10 @@ export const services = [
         url: "planos-marketing",
         content: [
             {
-                title: "Análise de Mercado Detalhada",
-                section: "Por forma a garantir que atingirá o seu público-alvo da forma mais rentável e eficiente, é essencial o investimento num forte e estruturado plano de comunicação e de marketing, bem como um apurado estudo de mercado.",
-                sectionB: "Com base na análise de mercado e nos insights obtidos, colaboramos com você para desenvolver planos de marketing personalizados e estratégias de posicionamento de marca que sejam eficazes, direcionadas e alinhadas com seus objetivos de negócios. Após o desenvolvimento do plano de marketing, ajudamos a implementar as estratégias definidas e monitoramos continuamente o desempenho, ajustando as táticas conforme necessário para garantir resultados consistentes e maximizar o retorno sobre o investimento.",
-                sectionC: "Realizamos análises regulares dos resultados do plano de marketing, utilizando métricas-chave de desempenho (KPIs) para avaliar o sucesso da estratégia e identificar áreas de melhoria e oportunidades de otimização.",
+                title: "Análise detalhada do mercado",
+                section: "Para atingir o seu público-alvo da forma mais econômica e eficiente, é importante investir em pesquisas de mercado precisas, bem como em um plano de comunicação e marketing preciso e sistemático.  Com base em análises e insights de mercado, trabalhamos com você para desenvolver planos de marketing personalizados e estratégias de posicionamento de marca que sejam eficazes, direcionadas e alinhadas com seus objetivos de negócios.",
+                sectionB: "Depois de desenvolver seu plano de marketing, ajudamos você a implementar a estratégia que criou, monitorar continuamente o desempenho e ajustar as táticas conforme necessário para garantir resultados consistentes e maximizar o retorno do investimento.",
+                sectionC: "Analisamos regularmente os resultados dos nossos planos de marketing utilizando indicadores-chave de desempenho (KPIs) para medir o sucesso das nossas estratégias e identificar áreas de melhoria e oportunidades de otimização.",
                 image: ServiceImage2,
             }
         ]
@@ -66,10 +66,10 @@ export const services = [
         url: "graficas-digitais",
         content: [
             {
-                title: "Artes Profissionais para seu Produto ou Negócio!",
-                section: "O que pode ser feito por um Design Gráfico: Nós da B. Alfa oferecemos muitas formas de artes, listaremos algumas, porém se a sua não estiver na lista, nos consulte!",
+                title: "Uma obra de arte profissional para o seu produto ou negócio!",
+                section: "O que um designer gráfico pode fazer: B.Alpha oferece muitos tipos diferentes de arte . Deixe-me listar alguns: Se você não o encontrar listado, entre em contato conosco!",
                 sectionB: <Marketing/>,
-                sectionC: "Tudo isso pode ser feito em alta resolução se você precisar! Oferecemos impressão de vários tipos de materiais, como cartões de visita, flyers, banners, páginas timbradas, portfólios, revistas e mais",
+                sectionC: "Tudo isso pode ser feito em alta definição se você precisar! Fornecemos impressão de diversos tipos de materiais, incluindo cartões de visita, folhetos, banners, formulários, portfólios e revistas.",
                 image: ServiceImage3,
             }
         ]
@@ -81,10 +81,10 @@ export const services = [
         url: "marketing-digital",
         content: [
             {
-                title: "Conectando Marcas ao Sucesso Online",
-                section: "Na B.Alfa, entendemos que cada empresa é única. É por isso que oferecemos soluções de marketing digital personalizadas para atender às necessidades específicas de sua empresa. Desde a criação de campanhas de mídia social até a otimização de mecanismos de busca (SEO) e marketing por e-mail, desenvolvemos estratégias sob medida para impulsionar sua presença online e alcançar seus objetivos de negócios.",
-                sectionB: "Nosso foco vai além de simplesmente aumentar o tráfego para o seu site. Na B.Alfa, buscamos engajar seu público-alvo de maneira significativa e converter leads em clientes. Através de análises detalhadas, identificamos oportunidades de melhoria em sua jornada digital, desde a primeira interação até a conversão final.",
-                sectionC: "Sabemos que a transparência e a mensuração são essenciais para o sucesso de qualquer estratégia de marketing digital. Na B.Alfa, fornecemos relatórios detalhados e análises de desempenho para acompanhar o progresso de suas campanhas. Utilizando ferramentas avançadas de análise, monitoramos métricas-chave, como taxas de conversão, retorno sobre o investimento (ROI) e engajamento do usuário.",
+                title: "Conecte sua marca ao sucesso online",
+                section: "Na B.Alfa sabemos que cada empresa é única. É por isso que fornecemos soluções de marketing digital adaptadas às necessidades específicas do seu negócio.",
+                sectionB: "Desde a criação de campanhas de mídia social até a otimização de mecanismos de pesquisa (SEO) e email marketing, desenvolvemos estratégias personalizadas para melhorar sua presença online e atingir seus objetivos de negócios.  Nosso objetivo não é apenas aumentar o tráfego para  seu site. Na B.Alfa, nos esforçamos para gerar um envolvimento significativo com seu público-alvo  e converter clientes potenciais em clientes.",
+                sectionC: "A análise detalhada identifica oportunidades para melhorar sua jornada digital desde a primeira interação até a última conversão. Sabemos que  transparência e medição são fundamentais para o sucesso da sua estratégia de marketing digital. B.Alfa fornece relatórios detalhados e análises de desempenho para acompanhar o andamento de suas campanhas. Use ferramentas analíticas avançadas para monitorar métricas importantes, como taxas de conversão, retorno do investimento (ROI) e envolvimento do usuário.",
                 image: ServiceImage5,
             }
         ]

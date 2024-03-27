@@ -8,12 +8,6 @@ import ImageCarousel from "../../components/Carousel";
 import { Helmet } from "react-helmet";
 
 export default function HomePage() {
-    /*
-        <head>
-           
-        </head>
-
-    */
     return (
         <>
             <Helmet>
