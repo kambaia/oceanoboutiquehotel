@@ -10,19 +10,16 @@ export default function Header() {
         <div className="header-informations w-full py-4 bg-deep-gray text-white flex ">
             <Container>
                 <div className="flex flex-row flex-wrap gap-5 justify-between items-center">
-
                     <div className="flex flex-row gap-5">
                         <div className="flex flex-row gap-2 justify-between items-center ">
                             <FaLocationDot />
                             <p>Projecto Nova Vida, Rua 29, Luanda, Angola</p>
                         </div>
-
                         <div className="flex flex-row gap-2 justify-start items-center  pl-5 border-l">
                             <IoMdMailOpen />
-                            <p>geral@balfaa.com</p>
+                            <Link to={'mailto:geral@balfaa.com'}>geral@balfaa.com</Link>
                         </div>
                     </div>
-
                     <div className="flex flex-row gap-6 justify-between items-center ">
                         <div className="flex flex-row gap-1 justify-between items-center">
                             <MdAccessTimeFilled />
@@ -37,7 +34,6 @@ export default function Header() {
                             </Link>
                         </div>
                     </div>
-
                 </div>
             </Container>
         </div>

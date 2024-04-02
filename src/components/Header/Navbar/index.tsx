@@ -44,7 +44,7 @@ export function Navbar() {
                       <Link to={'https://wa.me/244997533711'} target="_blank" >  <FaWhatsapp className="text-3xl text-[#FF0000]" /></Link>
                         <div className="flex flex-col">
                             <p className={sticky ? `text-sm text-black` : `text-sm text-white`}>Tem Alguma Questão?</p>
-                            <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}>(+244) 997 533 711</p>
+                            <p className={sticky ? `text-sm text-black text-[20px] font-medium` : `text-sm text-white text-[20px] font-medium`}><Link to={'https://wa.me/244997533711'}>(+244) 997 533 711</Link></p>
                         </div>
                     </div>
                     <button className="nav-btn" onClick={showNavBar}> <FaBars /> </button>
