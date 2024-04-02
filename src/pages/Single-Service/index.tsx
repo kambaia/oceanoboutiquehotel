@@ -49,10 +49,10 @@ export default function SingleService() {
                     <div className="m-0 p-0 max-lg:w-full">
                         {conteudo?.map((image) => (
                             <>
-                                <div className={`h-[720px] w-[600px] bg-cover bg-center text-center relative z-20 max-lg:w-full max-lg:h-[500px]`}>
+                                <div className={`h-[700px] w-[580px] bg-cover bg-center text-center relative z-20 max-lg:w-full max-lg:h-[500px]`}>
                                     <img src={image.image} alt="Background Image" className="w-full align-middle h-full object-cover object-center max-lg:w-full" />
                                 </div>
-                                <div className={`h-[720px] w-[600px] mt-[-695px] ml-[25px] z-10 bg-gray-100 text-center max-lg:hidden`}></div>
+                                <div className={`h-[700px] w-[580px] mt-[-675px] ml-[25px] z-10 bg-gray-100 text-center max-lg:hidden`}></div>
                             </>
                         ))}
                     </div>
