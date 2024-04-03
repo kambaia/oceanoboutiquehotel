@@ -58,7 +58,6 @@ export const services = [
             }
         ]
     },
-    
     {
         title: "Criações Gráficas Digitais",
         description: "Na Criações Gráficas Expressivas, mergulhamos no mundo da arte visual e da comunicação eficaz para oferecer soluções gráficas excepcionais que cativam e inspiram.",
