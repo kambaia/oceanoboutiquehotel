@@ -33,7 +33,7 @@ export default function HomePage() {
                 <div className="service w-full bg-gradient-to-r from-[#EDF5FF] to-[#CCDFF7] mt-10">
                     <Service />
                 </div>
-                <Partner />
+                <Partner page="partner" title="Inovando hoje para liderar amanhã." content="Na B.ALFA, unimos consultoria estratégica, liderança visionária e soluções de financiamento inovadoras para impulsionar o sucesso de nossos clientes hoje e liderar os negócios do amanhã" />
                 <Partners />
             </Layout>
 
