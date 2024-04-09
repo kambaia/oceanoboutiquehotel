@@ -1,5 +1,5 @@
 import Container from "../../share/container";
-import foto from '../../../assets/Agro/Populacao2.jpg';
+import foto from '../../../assets/Agro/population.png';
 import { FaArrowRight } from "react-icons/fa6";
 
 export function AgroWhy() {
