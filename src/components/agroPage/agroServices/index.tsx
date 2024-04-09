@@ -1,6 +1,5 @@
 import Container from "../../share/container"
-import { GiFarmTractor, GiNestEggs, GiFallingLeaf } from "react-icons/gi";
-import { FaHatCowboySide, FaShieldAlt } from "react-icons/fa";
+import {  FaShieldAlt } from "react-icons/fa";
 import { IoMdAnalytics } from "react-icons/io";
 import { MdAssessment, MdManageAccounts } from "react-icons/md";
 
@@ -8,8 +7,8 @@ export function AgroServices() {
     return (
         <Container>
             <div className="py-20">
-                <h2 className="text-xl text-red-600 font-medium uppercase">O que fazemos</h2>
-                <h2 className="text-4xl text-black font-medium pb-4">Porque o futuro da humanidade pode depender da África?</h2>
+                <h2 className="text-xl text-red-600 font-medium uppercase">As Nossas Soluções</h2>
+                <h2 className="text-4xl text-black font-medium pb-4">Garantindo o seu sucesso e alta produtividade agrícola</h2>
                 <div className="w-full flex flex-col gap-3 pb-20">
                     <p>Nossa equipe de consultores reúne uma combinação única de conhecimento técnico, experiência de mercado e visão estratégica para orientar nossos clientes em todas as fases do ciclo de investimento agropecuário. Desde a avaliação de oportunidades de negócios até a implementação de estratégias de crescimento, estamos comprometidos em alcançar resultados sólidos e sustentáveis.</p>
                     <p>Além disso, priorizamos investimentos que promovam práticas agrícolas e pecuárias responsáveis, respeitando o meio ambiente, protegendo os recursos naturais e garantindo o bem-estar animal. Acreditamos firmemente que o sucesso financeiro pode e deve andar de mãos dadas com a responsabilidade social e ambiental.</p>

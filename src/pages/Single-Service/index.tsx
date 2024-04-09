@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 export default function SingleService() {
 
-    const { pageCategory } = useParams() as any;
+    const { pageCategory } = useParams();
     const myServices = services.find((item) => item.url === pageCategory)
     const conteudo = myServices?.content
     const navigate = useNavigate();
@@ -59,7 +59,7 @@ export default function SingleService() {
 
                 </div>
             </Container>
-            <Partner />
+            <Partner page="partner" title="Inovando hoje para liderar amanhã." content="Na B.ALFA, unimos consultoria estratégica, liderança visionária e soluções de financiamento inovadoras para impulsionar o sucesso de nossos clientes hoje e liderar os negócios do amanhã" />
         </Layout>
     )
 }
