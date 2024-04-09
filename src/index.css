@@ -326,6 +326,14 @@ nav a {
     box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);
 }
 
+.agro-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(assets/Banner/banner-agro2.png);
+    background-position: center;
+    box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);
+}
+
 
 .partner {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 10%, rgba(255, 255, 255, 0) 90%), url('./assets/wall3.jpg');
@@ -337,7 +345,7 @@ nav a {
 }
 
 .agro {
-    background: url('./assets/Agro/newsletter-bg.png');
+    background: url('./assets/Agro/banner-agro.png');
     background-position: center;
     background-size: cover;
     box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);

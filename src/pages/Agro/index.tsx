@@ -13,7 +13,7 @@ export default function Agro() {
             <div className="w-full bg-white relative">
                 <Navbar />
             </div>
-            <TopBanner title="Agropecuária" tipo="contact-banner" />
+            <TopBanner title="Agropecuária" tipo="agro-banner" />
             <AgroWhy />
             <AgroServices />
             <AptidaoAgricola />
