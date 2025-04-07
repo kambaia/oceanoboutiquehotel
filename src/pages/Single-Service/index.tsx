@@ -38,7 +38,6 @@ export default function SingleService() {
                             <>
                                 <h1 className="capitalize text-black text-3xl font-bold">{text.title}</h1>
                                 <div className="pr-10 flex flex-col gap-4 max-lg:p-0 max-lg:w-full">
-                                    <p className="text-base text-gray-500 text-justify">{text.section}</p>
                                     <p className="text-base text-gray-500 text-justify">{text.sectionB}</p>
                                     <p className="text-base text-gray-500 text-justify">{text.sectionC}</p>
                                 </div>
