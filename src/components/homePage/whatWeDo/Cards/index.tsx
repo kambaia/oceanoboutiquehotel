@@ -80,8 +80,8 @@ export function WeDoCards() {
           </div>
         </SwiperSlide>
       ))}
-      <div className="swiper-button-prev text-red-600 bg-white text-4xl cursor-pointer"><RiArrowLeftSLine   className={`Arrow ${isFirst ? 'disabled' : ''}`} onClick={handlePrev} /></div>
-      <div className="swiper-button-next text-red-600 bg-white text-4xl cursor-pointer"><RiArrowRightSLine className={`Arrow ${isLast ? 'disabled' : ''}`} onClick={handleNext} /></div>
+      <div className="swiper-button-prev text-[#4C96FF] bg-white text-4xl cursor-pointer"><RiArrowLeftSLine   className={`Arrow ${isFirst ? 'disabled' : ''}`} onClick={handlePrev} /></div>
+      <div className="swiper-button-next text-[#4C96FF] bg-white text-4xl cursor-pointer"><RiArrowRightSLine className={`Arrow ${isLast ? 'disabled' : ''}`} onClick={handleNext} /></div>
     </Swiper>
   )
 }

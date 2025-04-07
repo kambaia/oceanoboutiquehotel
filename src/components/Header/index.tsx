@@ -13,11 +13,11 @@ export default function Header() {
                     <div className="flex flex-row gap-5">
                         <div className="flex flex-row gap-2 justify-between items-center ">
                             <FaLocationDot />
-                            <p>Projecto Nova Vida, Rua 29, Luanda, Angola</p>
+                            <p>Minha localização, Rua 100, Luanda, Angola</p>
                         </div>
                         <div className="flex flex-row gap-2 justify-start items-center  pl-5 border-l">
                             <IoMdMailOpen />
-                            <Link to={'mailto:geral@balfaa.com'}>geral@balfaa.com</Link>
+                            <Link to={'mailto:geral@balfaa.com'}>Geral@oceanoboutiquehotel.com</Link>
                         </div>
                     </div>
                     <div className="flex flex-row gap-6 justify-between items-center ">

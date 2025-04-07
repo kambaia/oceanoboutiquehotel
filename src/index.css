@@ -313,25 +313,28 @@ nav a {
 .about-banner {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(assets/Banner/about.jpg);
+    background-image: url(/banner.webp);
     background-position: center;
     box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 
 .contact-banner {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(assets/Banner/contact.jpg);
+    background-image: url(/banner.webp);
     background-position: center;
+    background-size: cover;
     box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);
 }
 
 .agro-banner {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(assets/Banner/banner-agro2.png);
+    background-image: url(/banner.webp);
     background-position: center;
     box-shadow: inset 200px 200px 300px 200px rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 
 

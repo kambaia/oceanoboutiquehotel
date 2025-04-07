@@ -1,10 +1,9 @@
 import { useState, useEffect, useRef } from "react";
-import { AiOutlineLeft } from "react-icons/ai";
-import { AiOutlineRight } from "react-icons/ai";
 import { Navbar } from "../Header/Navbar";
 import Container from "../share/container";
 import { useGSAP } from "@gsap/react";
 import gsap from 'gsap';
+import BookingSlider from "./BookingSlider";
 
 gsap.registerPlugin(useGSAP);
 
@@ -30,7 +29,7 @@ export default function Carousel({
     const toggleTimelineBanner = () => {
         tl_banner.current.reversed(!tl.current.reversed());
     };
-    
+
     const prev = () => {
         gsap.to(tl.current, { duration: 1, x: 100, opacity: 0.5 });
         gsap.to(tl_banner.current, { duration: 1, x: 100, opacity: 0.5 });
@@ -70,29 +69,27 @@ export default function Carousel({
 
             <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
                 <Container>
-                    <div className="carousel-details py-[15%] w-[50%]">
-                        <div className="flex items-center gap-8 text-3xl text-white">
-                            <a href="https://www.youtube.com/watch?v=a" className="play-btn mb-3 text-1xl"></a>
-                            <span className="text-[18px]">VER VÍDEO</span>
-                        </div>
-                        <h1 style={{ transform: `translateX(-100)` }} ref={tl} className="box text-white">
-                            <span className="font-bold text-[#FF0000] text-6xl">{string[currS].title}</span> 
-                            <br />
-                            <span className="text-5xl font-light"> {string[currS].p}</span>
-                        </h1>
+                    <div className="carousel-details  flex justify-center items-center  h-screen w-[50%]">
+                      <BookingSlider title={undefined} subtitle={undefined}/>
                     </div>
 
-                    <div className="carousel-position flex items-center justify-start z-50 gap-2">
+                    <div className="carousel-position flex flex-col items-start justify-center gap-2 absolute top-1/2 left-4 transform -translate-y-1/2 z-50">
                         {slides.map((_, i) => (
-                            <div className="flex justify-center items-center border border-red-500 w-5 h-5 rounded-full">
+                            <div
+                                key={i}
+                                className="flex justify-center items-center border border-[#4C96FF] w-5 h-5 rounded-full cursor-pointer"
+                                onClick={() => {
+                                    // Muda direto, sem animação
+                                    setCurr(i);
+                                    setCurrS(i);
+                                }}
+                            >
                                 <div
-                                    onClick={() => prev()}
-                                    className={`transition-all w-2 h-2 bg-[#ff0000] rounded-full ${curr === i ? "p-1" : "bg-opacity-50"}`}
+                                    className={`transition-all w-2 h-2 bg-[#4C96FF] rounded-full ${curr === i ? "p-1" : "bg-opacity-50"}`}
                                 ></div>
                             </div>
                         ))}
                     </div>
-
                 </Container>
             </div>
 
@@ -102,19 +99,6 @@ export default function Carousel({
                         <img src={img} alt="" />
                     </>
                 ))}
-            </div>
-
-            <div className={`carousel-controler absolute bottom-0 right-0 left-0`}>
-                <div ref={tl_banner} className="banner z-40 h-[65vh] w-full left-0 right-0">
-                    <div ref={tl_banner} className={`absolute bottom-0 right-0 ${slides.length === 0 ? 'right-0' : 'right-24'} inset-0 flex items-center justify-end gap-2 top-72 px-6 z-50`}>
-                        <button onClick={() => prev()} className="p-2 rounded-full shadow bg-[rgba(246,244,244,0.57)] text-gray-800 hover:bg-white">
-                            <AiOutlineLeft size={20} color="#FF0000" />
-                        </button>
-                        <button onClick={next} className="p-2 rounded-full shadow bg-[rgba(255,251,251,0.6)] text-gray-800 hover:bg-white">
-                            <AiOutlineRight size={20} color="#FF0000" />
-                        </button>
-                    </div>
-                </div>
             </div>
         </div>
     );
