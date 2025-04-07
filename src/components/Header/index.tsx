@@ -26,10 +26,10 @@ export default function Header() {
                             <p>Horário: 09:00 – 17:00</p>
                         </div>
                         <div className="flex flex-row gap-3 justify-between items-center text-lg pl-5 border-l">
-                            <Link to={'https://www.facebook.com/people/B-Alfa/61556553600172/'} target="_blank">
+                            <Link to={'#'} target="_blank">
                                 <FaFacebookF />
                             </Link>
-                            <Link to={'https://www.instagram.com/balfa_invest_e_consultoria_/'} target="_blank">
+                            <Link to={'#'} target="_blank">
                                 <FaInstagram />
                             </Link>
                         </div>

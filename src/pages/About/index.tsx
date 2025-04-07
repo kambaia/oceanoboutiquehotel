@@ -1,9 +1,5 @@
 import Layout from "../../layout"
 import { TopBanner } from "../../components/share/topBanner"
-import { Identity } from "../../components/aboutPage/identity"
-import { GoldenCircle } from "../../components/aboutPage/goldCircle"
-import { Partner } from "../../components/share/partner"
-import { Partners } from "../../components/share/partners"
 import { Navbar } from "../../components/Header/Navbar"
 import { Helmet } from "react-helmet"
 

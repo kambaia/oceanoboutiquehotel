@@ -1,5 +1,4 @@
 import Container from "../share/container"
-import Logo from '../../assets/SVG/Ativo 24.svg'
 import { Link } from "react-router-dom"
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";

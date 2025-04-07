@@ -11,12 +11,11 @@ export default function Carousel({
     autoSlide = true,
     autoSlideInterval = 8000,
     slides,
-    string
 }: {
     autoSlide?: boolean;
     autoSlideInterval?: number;
     slides: string[];
-    string: any[];
+
 }) {
     const [curr, setCurr] = useState(0);
     const [currS, setCurrS] = useState(0);
@@ -29,15 +28,6 @@ export default function Carousel({
     const toggleTimelineBanner = () => {
         tl_banner.current.reversed(!tl.current.reversed());
     };
-
-    const prev = () => {
-        gsap.to(tl.current, { duration: 1, x: 100, opacity: 0.5 });
-        gsap.to(tl_banner.current, { duration: 1, x: 100, opacity: 0.5 });
-        setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
-        setCurrS(curr === 0 ? slides.length - 1 : curr - 1)
-        toggleTimeline();
-        toggleTimelineBanner();
-    }
     const next = () => {
         gsap.to(tl.current, { duration: 1, x: 100, opacity: 0.5 });
         gsap.to(tl_banner.current, { duration: 1, x: 100, opacity: 0.5 });
@@ -69,7 +59,7 @@ export default function Carousel({
 
             <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
                 <Container>
-                    <div className="carousel-details  flex justify-center items-center  h-screen w-[50%]">
+                    <div className="carousel-details  flex justify-center items-center  h-screen w-[100%]">
                       <BookingSlider title={undefined} subtitle={undefined}/>
                     </div>
 
@@ -77,7 +67,7 @@ export default function Carousel({
                         {slides.map((_, i) => (
                             <div
                                 key={i}
-                                className="flex justify-center items-center border border-[#4C96FF] w-5 h-5 rounded-full cursor-pointer"
+                                className="flex justify-center items-center border border-[#4C96FF] w-8 h-8 rounded-full cursor-pointer"
                                 onClick={() => {
                                     // Muda direto, sem animação
                                     setCurr(i);
@@ -85,7 +75,7 @@ export default function Carousel({
                                 }}
                             >
                                 <div
-                                    className={`transition-all w-2 h-2 bg-[#4C96FF] rounded-full ${curr === i ? "p-1" : "bg-opacity-50"}`}
+                                    className={`transition-all w-2 h-2 bg-[#4C96FF] rounded-full ${curr === i ? "p-1 bg-[#4C96FF] " : "bg-opacity-50"}`}
                                 ></div>
                             </div>
                         ))}

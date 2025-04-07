@@ -1,9 +1,6 @@
 import Layout from "../../layout";
 import { WhatWeDo } from "../../components/homePage/whatWeDo";
 import { OurWhy } from "../../components/homePage/ourWhy";
-import { Service } from "../../components/homePage/service";
-import { Partners } from "../../components/share/partners";
-import { Partner } from "../../components/share/partner";
 import ImageCarousel from "../../components/Carousel";
 import { Helmet } from "react-helmet";
 import { Gallery } from "../../components/homePage/Gallery";

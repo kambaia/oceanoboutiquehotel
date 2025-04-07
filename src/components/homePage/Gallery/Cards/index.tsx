@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
-import { services } from "../../../../utils/services";
 
+import { services } from "../../../../utils/services";
 export function WeDoCards() {
   return (
     <>

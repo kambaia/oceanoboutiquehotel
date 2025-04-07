@@ -26,13 +26,11 @@ export function Marketing(){
 export const services = [
     {
         title: "Suíte Executiva",
-        description: "Analisamos o potencial do seu negócio ou ideia, prestando serviços de aconselhamento estratégico que representam uma importante mais valia na alavancagem de um negócio.",
         image: '/imagens/OCEANO-13.png',
-        url: "estudos-financeiros",
+        url: "#",
         content: [
             {
                 title: "Gestão Financeira Estratégica",
-                section: "Analisamos o potencial do seu negócio ou ideia e prestamos serviços de consultoria estratégica que proporcionam um valor acrescentado valioso na captação de negócios.  Avaliamos a rentabilidade e sustentabilidade de um projeto ou investimento utilizando indicadores como ROI, período de retorno, TIR e VPL para determinar a sua viabilidade financeira e retornos potenciais.",
                 sectionB: "Analisamos os riscos associados a um projeto, incluindo fatores econômicos, competitivos e regulatórios governamentais, e desenvolvemos estratégias para mitigar esses riscos e garantir o sucesso financeiro do projeto.",
                 sectionC: "Com base em análises aprofundadas, fornecemos recomendações estratégicas claras e práticas para orientar as decisões de negócios, aumentar o valor para as partes interessadas e impulsionar o crescimento sustentável.",
                 image: ServiceImage1,
@@ -41,13 +39,12 @@ export const services = [
     },
     {
         title: "Suíte Executiva",
-        description: "Por forma a garantir que atingirá o seu público-alvo da forma mais rentável e eficiente, é essencial o investimento num forte e estruturado plano de comunicação e de marketing...",
+      
         image: '/imagens/OCEANO-03.png',
-        url: "planos-marketing",
+        url: "#",
         content: [
             {
                 title: "Análise detalhada do mercado",
-                section: "Para atingir o seu público-alvo da forma mais econômica e eficiente, é importante investir em pesquisas de mercado precisas, bem como em um plano de comunicação e marketing preciso e sistemático.  Com base em análises e insights de mercado, trabalhamos com você para desenvolver planos de marketing personalizados e estratégias de posicionamento de marca que sejam eficazes, direcionadas e alinhadas com seus objetivos de negócios.",
                 sectionB: "Depois de desenvolver seu plano de marketing, ajudamos você a implementar a estratégia que criou, monitorar continuamente o desempenho e ajustar as táticas conforme necessário para garantir resultados consistentes e maximizar o retorno do investimento.",
                 sectionC: "Analisamos regularmente os resultados dos nossos planos de marketing utilizando indicadores-chave de desempenho (KPIs) para medir o sucesso das nossas estratégias e identificar áreas de melhoria e oportunidades de otimização.",
                 image: ServiceImage2,
@@ -56,9 +53,8 @@ export const services = [
     },
     {
         title: "Suíte Presidencial",
-        description: "Na Criações Gráficas Expressivas, mergulhamos no mundo da arte visual e da comunicação eficaz para oferecer soluções gráficas excepcionais que cativam e inspiram.",
         image: '/imagens/OCEANO-11.png',
-        url: "graficas-digitais",
+        url: "#",
         content: [
             {
                 title: "Uma obra de arte profissional para o seu produto ou negócio!",
@@ -71,9 +67,8 @@ export const services = [
     },
     {
         title: "Quarto Luxo",
-        description: "Na Visão Global Digital, oferecemos soluções de marketing digital sob medida para impulsionar a presença online e o sucesso de nossos clientes.",
         image: '/imagens/OCEANO-05.png',
-        url: "marketing-digital",
+        url: "#",
         content: [
             {
                 title: "Conecte sua marca ao sucesso online",
@@ -86,9 +81,9 @@ export const services = [
     },
     {
         title: "Suíte Presidencial",
-        description: "Para garantir que o produtor agricola tenha sucesso e alta produtividade prestamos apoio técnico agricola na produção de leguminosas, frutas e hortaliças.",
+     
         image: '/imagens/OCEANO-06.png',
-        url: "aconselhamento-tecnico",
+        url: "#",
         content: [
             {
                 title: "Avaliação e Diagnóstico Agronômico",
@@ -101,9 +96,8 @@ export const services = [
     },
     {
         title: "Quarto Luxo",
-        description: "Para investidores extrangeiros com pretensão de fazer negócios em Angola , oferecemos um serviço especializado com produção de informações sobre o sector de interesse...",
-            image: '/imagens/OCEANO-07.png',
-        url: "business-oportunities",
+       image: '/imagens/OCEANO-07.png',
+       url: "#",
         content: [
             {
                 title: "Teaser and Due Diligence",
@@ -116,9 +110,8 @@ export const services = [
     },
     {
         title: "Quarto Luxo",
-        description: "A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica.",
-          image: '/imagens/OCEANO-08.png',
-        url: "avaliacao-empresas",
+        image: '/imagens/OCEANO-08.png',
+      url: "#",
         content: [
             {
                 title: "Análise Financeira Detalhada",
@@ -131,9 +124,8 @@ export const services = [
     },
     {
        title: "Suíte Presidencial",
-        description: "A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica.",
           image: '/imagens/OCEANO-14.png',
-        url: "avaliacao-empresas",
+      url: "#",
         content: [
             {
                 title: "Análise Financeira Detalhada",
@@ -146,9 +138,8 @@ export const services = [
     },
     {
        title: "Suíte Presidencial",
-        description: "A avaliação de empresas e negócios consiste no processo usado para determinar o valor de uma entidade ou negócio, com o intuito de exercer uma atividade económica.",
           image: '/imagens/OCEANO-15.png',
-        url: "avaliacao-empresas",
+      url: "#",
         content: [
             {
                 title: "Análise Financeira Detalhada",
