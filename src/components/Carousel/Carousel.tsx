@@ -25,9 +25,11 @@ export default function Carousel({
     const toggleTimeline = () => {
         tl.current.reversed(!tl.current.reversed());
     };
+
     const toggleTimelineBanner = () => {
         tl_banner.current.reversed(!tl.current.reversed());
     };
+
     const next = () => {
         gsap.to(tl.current, { duration: 1, x: 100, opacity: 0.5 });
         gsap.to(tl_banner.current, { duration: 1, x: 100, opacity: 0.5 });
@@ -36,6 +38,7 @@ export default function Carousel({
         toggleTimeline();
         toggleTimelineBanner();
     }
+
     useEffect(() => {
         if (!autoSlide) return;
         const slideInterval = setInterval(next, autoSlideInterval);
@@ -53,14 +56,14 @@ export default function Carousel({
 
 
     return (
-        <div className="carousel overflow-hidden relative h-[100vh]">
+        <div className="carousel overflow-hidden relative h-screen max-h-[900px]">
 
             <Navbar />
 
-            <div className="absolute top-0 right-0 left-0 h-full z-30 py-4" style={{ background: 'rgba(0,0,0,0.5)' }}>
+            <div className="absolute top-0 right-0 left-0 lg:h-[calc(100vh-90px)] xl:h-screen max-h-[900px] z-30 py-4">
                 <Container>
-                    <div className="carousel-details  flex justify-center items-center  h-screen w-[100%]">
-                      <BookingSlider title={undefined} subtitle={undefined}/>
+                    <div className="carousel-details  flex justify-center items-center w-[100%]">
+                        <BookingSlider title={undefined} subtitle={undefined} />
                     </div>
 
                     <div className="carousel-position flex flex-col items-start justify-center gap-2 absolute top-1/2 left-4 transform -translate-y-1/2 z-50">
@@ -83,10 +86,10 @@ export default function Carousel({
                 </Container>
             </div>
 
-            <div className="flex border transition-transform ease-out duration-500" style={{ transform: `translateX(-${curr * 100}%)` }}>
+            <div className="flex border transition-transform ease-out duration-500 w-full" style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {slides.map((img) => (
                     <>
-                        <img src={img} alt="" />
+                        <img src={img} alt="" className="w-full object-contain object-center" />
                     </>
                 ))}
             </div>
