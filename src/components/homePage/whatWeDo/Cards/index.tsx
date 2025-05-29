@@ -58,13 +58,13 @@ export function WeDoCards() {
       modules={[FreeMode, Pagination]}
       freeMode={true}
 
-      className="max-w-[100%] lg:max-w-[100%] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4"
+      className="max-w-[100%] lg:max-w-[100%] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-1"
     >
       {services.map((service) => (
 
         <SwiperSlide key={service.title}>
           <div className="we-do-card grid items-center justify-center rounded-md" data-aos="fade-down">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 rounded-md">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 rounded-md">
               <div className="rounded-md w-[300px] left-0 right-0 bg-blue-500 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                 <div className="h-[400px] w-[300px] rounded-md">
                   <img className="h-full rounded-md w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={service.image} alt="Imagem" />

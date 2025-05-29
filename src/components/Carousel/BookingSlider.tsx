@@ -7,10 +7,10 @@ export default function BookingSlider({ subtitle }: any) {
   const [endDate, setEndDate] = useState<Date | null>(null);
 
   return (
-    <div className="relative bottom-0 w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url('/your-image.jpg')` }}>
-      <div className="absolute inset-0 bg-opacity-60 flex justify-end flex-col mb-24 items-center">
+    <div className="h-full w-full bg-cover bg-center" style={{ backgroundImage: `url('/your-image.jpg')` }}>
+      <div className="inset-0 bg-opacity-60 flex justify-center flex-col mb-24 items-center w-full">
 
-        <div className="bg-black bg-opacity-80 p-10 w-full rounded-lg border-l-4 border-[#4C96FF] text-white flex flex-col justify-center">
+        <div className="bg-black absolute bottom-16 bg-opacity-80 p-10 w-[60%] rounded-lg border-l-4 border-[#4C96FF] text-white flex flex-col justify-center">
           <h2 className="text-3xl font-bold mb-2 text-center">Reservar um quarto online</h2>
 
           <div className="flex flex-row flex-wrap justify-center items-center gap-3">
@@ -87,6 +87,7 @@ export default function BookingSlider({ subtitle }: any) {
 
           </div>
         </div>
+
       </div>
     </div>
   );
