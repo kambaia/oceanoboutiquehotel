@@ -35,9 +35,9 @@ export default function ContactPage() {
             <TopBanner title="Contactos" tipo="contact-banner" />
 
             <Container>
-                <div className="w-full py-32 px-20 my-20 bg-[#4C96FF] flex flex-row justify-around max-lg:p-5">
-                    <div >
-                        <div className="bg-white w-[450px] relative z-20 flex flex-col gap-4 p-20 max-lg:w-full max-lg:h-auto max-lg:p-5">
+                <div className="w-full py-32 px-2 md:px-20  my-4 md:my-20 bg-[#4C96FF] grid md:grid-cols-2 md:gap-4  justify-around max-lg:p-5">
+                    <div className="">
+                        <div className="bg-white md:w-[450px]  relative z-20 flex flex-col gap-4 p-20 max-lg:w-full max-lg:h-auto max-lg:p-5">
                             <h1 className="text-3xl font-bold" >Vamos Conversar?</h1>
                             <p className="text-gray-600 text-justify">Entre em contacto connosco e faça-nos chegar as suas questões. Estamos certos que teremos a solução para si.</p>
                             <div className="flex flex-row items-center gap-3 mt-4">
@@ -61,10 +61,10 @@ export default function ContactPage() {
                         </div>
 
                         {/* Div de Sombra do Card Principal */}
-                        <div className="bg-white opacity-30 w-[450px] h-[450px] mt-[-425px] ml-[25px] z-10 max-lg:hidden"></div>
+                        <div className="bg-white opacity-30 md:w-[450px] h-[450px] mt-[-425px] ml-[25px] z-10 max-lg:hidden"></div>
                     </div>
 
-                    <div className="w-[600px] p-6 flex flex-col gap-14 max-lg:gap-6 max-lg:p-0 max-lg:pt-6">
+                    <div className="w-full md:w-[600px] p-6 flex flex-col gap-14 max-lg:gap-6 max-lg:p-0 max-lg:pt-6">
                         <input type="text" placeholder="Nome" className="bg-transparent border-b p-1 outline-none text-base text-white w-full placeholder:text-white focus:bg-transparent" />
                         <div className="flex flex-row gap-6 max-lg:flex-wrap">
                             <input type="email" placeholder="Email" className="bg-transparent border-b p-1 outline-none text-base text-white w-full placeholder:text-white focus:bg-transparent" />
