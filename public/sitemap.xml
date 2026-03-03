@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://oceanoboutiquehotel.ao/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://oceanoboutiquehotel.ao/" />
+  </url>
+
+  <url>
+    <loc>https://oceanoboutiquehotel.ao/quartos</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://oceanoboutiquehotel.ao/quartos" />
+  </url>
+
+  <url>
+    <loc>https://oceanoboutiquehotel.ao/reservas</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://oceanoboutiquehotel.ao/reservas" />
+  </url>
+
+</urlset>
